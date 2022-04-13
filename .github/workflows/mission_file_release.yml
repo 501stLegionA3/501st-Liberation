@@ -45,7 +45,7 @@ jobs:
           cd ..
           xcopy 501st-Liberation\Framework Missionframework /E
           xcopy 501st-Liberation\Mission_Base Missionbasefiles /E
-          xcopy 501st-Liberation\Config\presets.json lib\presets.json
+          cp 501st-Liberation\Config\presets.json lib\presets.json
           cd lib
           ls
           
