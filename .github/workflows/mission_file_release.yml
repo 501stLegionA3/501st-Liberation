@@ -33,7 +33,6 @@ jobs:
           git pull origin master
           cd _tools
           npm install
-          npm install gulp
           
       - name: Setup Build Enviroment
         run: |
@@ -52,6 +51,7 @@ jobs:
       - name: Run Build
         run: |
           cd ..\lib
+          npm install gulp
           npx gulp build
           npx gulp pbo
           
