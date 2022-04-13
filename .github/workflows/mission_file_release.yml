@@ -44,12 +44,8 @@ jobs:
           
       - name: Run Build
         run: |
-          cd ..\lib\_tools
-          npm install
-          npm install gulp-cli
-          gulp build
-          gulp pbo
-
+          cd ..\lib
+          .\build.bat
           
       - name: Move PBOs
         run: |
