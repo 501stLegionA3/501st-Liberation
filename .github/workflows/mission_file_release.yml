@@ -31,4 +31,4 @@ jobs:
           git remote add origin https://github.com/KillahPotatoes/KP-Liberation.git
           git fetch
           git pull origin master
-          ls        
+          dir        
