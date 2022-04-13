@@ -23,8 +23,9 @@ jobs:
           dotnet-version: 5.0.x
       
       - name: Pull Multipack Source
-        run: cd ..
-          | ls
-          | mkdir tmp
-          | cd tmp
-          | ls
+        run: |
+          cd ..
+          ls
+          mkdir tmp
+          cd tmp
+          ls
