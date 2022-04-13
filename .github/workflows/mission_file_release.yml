@@ -33,7 +33,7 @@ jobs:
           git pull origin master
           cd _tools
           npm install
-          npm insatll -g gulp
+          npm install -g gulp
           
       - name: Setup Build Enviroment
         run: |
