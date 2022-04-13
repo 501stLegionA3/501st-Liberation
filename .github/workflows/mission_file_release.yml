@@ -33,7 +33,6 @@ jobs:
           git pull origin master
           cd _tools
           npm install
-          npm install gulp
           
       - name: Setup Build Enviroment
         run: |
@@ -45,13 +44,14 @@ jobs:
           cd ..
           xcopy 501st-Liberation\Framework Missionframework /E
           xcopy 501st-Liberation\Mission_Base Missionbasefiles /E
-          xcopy 501st-Liberation\Config\presets.json lib\presets.json
+          cp 501st-Liberation\Config\presets.json lib\presets.json
           cd lib
           ls
           
       - name: Run Build
         run: |
           cd ..\lib
+          npm install gulp
           npx gulp build
           npx gulp pbo
           
