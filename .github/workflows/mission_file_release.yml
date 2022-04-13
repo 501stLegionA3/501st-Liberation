@@ -42,9 +42,9 @@ jobs:
           cd lib
           mkdir build
           cd ..
-          rmdir /s lib\Missionframework
+          Remove-Item -Recurse -Force lib\Missionframework
           xcopy 501st-Liberation\Framework lib\Missionframework /E
-          rmdir /s lib\Missionbasefiles
+          Remove-Item -Recurse -Force lib\Missionbasefiles
           xcopy 501st-Liberation\Mission_Base lib\Missionbasefiles /E
           cp 501st-Liberation\Config\presets.json lib\_tools\presets.json
           cd lib
@@ -53,7 +53,7 @@ jobs:
       - name: Run Build
         run: |
           cd ..\lib
-          build.bat
+          .\build.bat
           
       - name: Move PBOs
         run: |
