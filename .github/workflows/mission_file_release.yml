@@ -44,7 +44,7 @@ jobs:
           
       - name: Run Build
         run: |
-          cd ..\lib
+          cd ..\lib\_tools
           npm install
           npx gulp build
           npx gulp pbo
