@@ -30,5 +30,39 @@ jobs:
           git init
           git remote add origin https://github.com/KillahPotatoes/KP-Liberation.git
           git fetch
-          git pull
-          ls        
+          git pull origin master
+          cd _tools
+          npm install
+          npm install -g gulp
+          
+      - name: Setup Build Enviroment
+        run: |
+          cd ..
+          mkdir Missionframework
+          mkdir Missionbasefiles
+          cd lib
+          mkdir build
+          cd ..
+          xcopy 501st-Liberation\Framework Missionframework /E
+          xcopy 501st-Liberation\Mission_Base Missionbasefiles /E
+          xcopy 501st-Liberation\Config\presets.json lib\presets.json
+          cd lib
+          ls
+          
+      - name: Run Build
+        run: |
+          cd ..\lib
+          npx gulp build
+          npx gulp pbo
+          
+      - name: Move PBOs
+        run: |
+          cd ..
+          xcopy lib\build 501st-Liberation\mpmissions /E/Y
+          
+      - name: Update Repo
+        if: ${{ !env.ACT }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Mission File Release
+          push_options: '--force'
