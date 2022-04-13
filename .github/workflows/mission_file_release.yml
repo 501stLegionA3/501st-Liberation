@@ -42,7 +42,7 @@ jobs:
           Remove-Item -Recurse -Force -Path lib\Missionbasefiles\*
           xcopy 501st-Liberation\Mission_Base lib\Missionbasefiles /E
           Remove-Item -Force -Path lib\_tools\_presets.json
-          cp 501st-Liberation\Config\_presets.json lib\_tools\_presets.json
+          cp 501st-Liberation\Config\_presets.json lib\_tools\presets.json
           
       - name: Run Build
         run: |
