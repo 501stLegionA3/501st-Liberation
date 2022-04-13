@@ -34,9 +34,7 @@ jobs:
           
       - name: Setup Build Enviroment
         run: |
-          cd ..\lib\_tools
-          mkdir build
-          cd ..\..
+          cd ..
           Remove-Item -Recurse -Force -Path lib\Missionframework\*
           xcopy 501st-Liberation\Framework lib\Missionframework /E
           Remove-Item -Recurse -Force -Path lib\Missionbasefiles\*
@@ -47,7 +45,11 @@ jobs:
       - name: Run Build
         run: |
           cd ..\lib\_tools
-          .\..\..\501st-Liberation\Config\build.bat
+          npm install
+          npm install gulp-cli
+          gulp build
+          gulp pbo
+
           
       - name: Move PBOs
         run: |
