@@ -1,0 +1,6 @@
+This is where I'll upload the custom files for the 501st version of the Liberation files.
+
+Basically all that's happening is editing ~5 files and pasting the files over the stuff in the base files.
+
+I'll also put the DevKit mission file here so that we can do some custom maps. The maps are pretty basic as far as UI goes, it's just tedious to create on a new map as you
+have to create each individual mission point.
