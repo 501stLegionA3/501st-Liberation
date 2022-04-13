@@ -48,7 +48,7 @@ jobs:
         run: |
           cd ..\lib\_tools
           npm install --loglevel=error
-          npx gulp default
+          npm run build 
           
       - name: Move PBOs
         run: |
