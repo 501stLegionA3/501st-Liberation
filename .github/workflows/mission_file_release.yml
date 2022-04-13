@@ -42,9 +42,9 @@ jobs:
           cd lib
           mkdir build
           cd ..
-          del /F lib\Missionframework
+          rmdir lib\Missionframework /s
           xcopy 501st-Liberation\Framework lib\Missionframework /E
-          del /F lib\Missionbasefiles
+          rmdir lib\Missionbasefiles /s
           xcopy 501st-Liberation\Mission_Base lib\Missionbasefiles /E
           cp 501st-Liberation\Config\presets.json lib\_tools\presets.json
           cd lib
