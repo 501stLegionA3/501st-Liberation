@@ -42,18 +42,18 @@ jobs:
           cd lib
           mkdir build
           cd ..
-          xcopy 501st-Liberation\Framework Missionframework /E
-          xcopy 501st-Liberation\Mission_Base Missionbasefiles /E
-          cp 501st-Liberation\Config\presets.json lib\presets.json
+          del lib\Missionframework /F
+          xcopy 501st-Liberation\Framework lib\Missionframework /E
+          del lib\Missionbasefiles /F
+          xcopy 501st-Liberation\Mission_Base lib\Missionbasefiles /E
+          cp 501st-Liberation\Config\presets.json lib\_tools\presets.json
           cd lib
           ls
           
       - name: Run Build
         run: |
           cd ..\lib
-          npm install gulp
-          npx gulp build
-          npx gulp pbo
+          build.bat
           
       - name: Move PBOs
         run: |
