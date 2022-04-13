@@ -55,7 +55,7 @@ jobs:
       - name: Move PBOs
         run: |
           cd ..
-          xcopy lib\build 501st-Liberation\mpmissions /E/Y
+          xcopy lib\_tools\build 501st-Liberation\mpmissions /E/Y
           
       - name: Update Repo
         if: ${{ !env.ACT }}
