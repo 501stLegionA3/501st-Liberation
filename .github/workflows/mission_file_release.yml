@@ -47,8 +47,7 @@ jobs:
       - name: Run Build
         run: |
           cd ..\lib\_tools
-          npm install --loglevel=error
-          npm run build 
+          .\..\..\501st-Liberation\Config\build.bat
           
       - name: Move PBOs
         run: |
