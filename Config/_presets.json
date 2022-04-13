@@ -1,0 +1,20 @@
+[
+    {
+        "sourceFolder": "kp_liberation.Altis",
+
+        "missionName": "kp_liberation",
+        "map": "Altis",
+
+        "configFile": "kp_liberation_config.sqf",
+        
+        "variables": {
+            "KP_liberation_preset_blufor": 31,
+            "KP_liberation_preset_opfor": 0,
+            "KP_liberation_preset_resistance": 0,
+            "KP_liberation_preset_civilians": 0,
+            "KP_liberation_arsenal": 1
+        },
+
+        "workshopId": "0"
+    }
+]
