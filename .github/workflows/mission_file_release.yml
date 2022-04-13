@@ -17,15 +17,18 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          dotnet-version: 5.0.x
+          node-version: '14'
       
-      - name: Pull Multipack Source
+      - name: Pull Liberation Tools
         run: |
           cd ..
-          ls
-          mkdir tmp
-          cd tmp
-          ls
+          mkdir lib
+          cd lib
+          git init
+          git remote add origin https://github.com/KillahPotatoes/KP-Liberation.git
+          git fetch
+          get pull
+          ls        
