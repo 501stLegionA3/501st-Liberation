@@ -31,8 +31,6 @@ jobs:
           git remote add origin https://github.com/KillahPotatoes/KP-Liberation.git
           git fetch
           git pull origin master
-          cd _tools
-          npm install
           
       - name: Setup Build Enviroment
         run: |
@@ -49,8 +47,10 @@ jobs:
           
       - name: Run Build
         run: |
-          cd ..\lib
-          .\build.bat
+          cd ..\lib\_tools
+          npm install --loglevel=error
+          npx gulp build
+          npx gulp pbo
           
       - name: Move PBOs
         run: |
