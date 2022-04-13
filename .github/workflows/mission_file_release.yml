@@ -41,9 +41,8 @@ jobs:
           xcopy 501st-Liberation\Framework lib\Missionframework /E
           Remove-Item -Recurse -Force -Path lib\Missionbasefiles\*
           xcopy 501st-Liberation\Mission_Base lib\Missionbasefiles /E
-          cp 501st-Liberation\Config\presets.json lib\_tools\presets.json
-          cd lib
-          ls
+          Remove-Item -Force -Path lib\_tools\_presets.json
+          cp 501st-Liberation\Config\_presets.json lib\_tools\_presets.json
           
       - name: Run Build
         run: |
@@ -55,7 +54,7 @@ jobs:
       - name: Move PBOs
         run: |
           cd ..
-          xcopy lib\_tools\build 501st-Liberation\mpmissions /E/Y
+          xcopy lib\_tools\build\pbo 501st-Liberation\mpmissions /E/Y
           
       - name: Update Repo
         if: ${{ !env.ACT }}
