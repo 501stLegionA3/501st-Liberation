@@ -71,44 +71,44 @@ light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                    //  Quad Bike
     ["B_Boat_Transport_01_F",100,0,25],                             //  Assault Boat
     ["RD501_speedboat_republic",200,80,75],                         //  Speedboat Minigun
-    ["B_SDV_01_F",150,0,50]                                         //  SDV
+    ["B_SDV_01_F",150,0,50],                                        //  SDV
     ["442_argon_transport",125,0,75],                               //  Argon Transport
     ["442_argon_covered",125,0,75],                                 //  Argon Transport (Covered)
-    ["RD501_bantha_501st_MkI_HALO",350,100,150]                     //  Bantha (HALO)
-    ["RD501_warden_tank_mobile",400,200,200]                        //  Warden Tank
-    ["RD501_warden_tank_field",500,250,250]                         //  Warden Tank (Field)
-    ["RD501_gar_rtt",125,0,75]                                      //  RTT
-    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder
-    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder (Medical)
-    ["3AS_Barc_501",50,0,25]                                        //  Barc
+    ["RD501_bantha_501st_MkI_HALO",350,100,150],                     //  Bantha (HALO)
+    ["RD501_warden_tank_mobile",400,200,200],                        //  Warden Tank
+    ["RD501_warden_tank_field",500,250,250],                         //  Warden Tank (Field)
+    ["RD501_gar_rtt",125,0,75],                                      //  RTT
+    ["RD501_fast_infantry_transport_republic",125,0,50],             //  Pathfinder
+    ["RD501_fast_infantry_transport_republic",125,0,50],             //  Pathfinder (Medical)
+    ["3AS_Barc_501",50,0,25],                                        //  Barc
     ["3AS_BarcSideCar_501",50,25,25]                                //  Barc (Sidecar)
 ];
 
 heavy_vehicles = [
-    ["3as_Jug",750,350,300]                                         //  Juggy Wuggy
-    ["3as_AV7",250,500,150]                                         //  AV7
-    ["3as_ATTE_Base",350,350,300]                                   //  ATTE
-    ["RD501_walker_republic_atap_MkII",300,250,250]                 //  ATAP
-    ["RD501_saber_republic_tx130_gl_MkII",250,150,150]              //  TX-130 "Saber Tank" GL Variant
+    ["3as_Jug",750,350,300],                                         //  Juggy Wuggy
+    ["3as_AV7",250,500,150],                                         //  AV7
+    ["3as_ATTE_Base",350,350,300],                                   //  ATTE
+    ["RD501_walker_republic_atap_MkII",300,250,250],                 //  ATAP
+    ["RD501_saber_republic_tx130_gl_MkII",250,150,150],              //  TX-130 "Saber Tank" GL Variant
     ["RD501_saber_republic_tx130_super_MkII",250,200,150]           //  TX-130 "Super Saber"
 ];
 
 air_vehicles = [
-    ["RD501_nuclass_mk1",250,50,250]                                //  Nu Class (RD501)
-    ["RD501_Laat_LE",150,50,200]                                    //  LAAT-LE (RD501)
-    ["RD501_Laat_C",200,0,200]                                      //  LAAT-C (RD501)
-    ["RD501_LAAT-MKIII_Balls"200,150,250]                           //  LAAT MKIII (RD501)
-    ["RD501_z95_blue",250,250,250]                                  //  Z-95 Headhunter (RD501)
-    ["RD501_v19_MKI",250,250,250]                                   //  V-19 Torrent (RD501)
-    ["RD501_arc_170_red",250,250,250]                               //  ARC 170 (RD501) - Red
-    ["RD501_arc_170_blue",250,250,250]                              //  ARC 170 (RD501) - Blue
-    ["RD501_arc_170_razor",250,250,250]                             //  ARC 170 (RD501) - Razor
-    ["RD501_drone_Clone_Recon_Droid",50,0,50]                       //  R-2 Recon Drone (RD501)
-    ["RD501_drone_razor_turret",50,25,50]                           //  Razor Prime Drone (Turret) (RD501)
-    ["RD501_drone_rep_heli",100,50,100]                             //  Elix Support Drone (RD501)
-    ["RD501_drone_rep_stealth_heli",100,50,100]                     //  Elix Support Drone (Stealth) (RD501)
-    ["RD501_drone_rep_stealth_fixedwing",250,300,200]               //  Phantom UAV (RD501)
-    ["RD501_Wombat",150,150,150]                                    //  F-99 Wombat (??) (RD501)
+    ["RD501_nuclass_mk1",250,50,250],                                //  Nu Class (RD501)
+    ["RD501_Laat_LE",150,50,200],                                    //  LAAT-LE (RD501)
+    ["RD501_Laat_C",200,0,200],                                      //  LAAT-C (RD501)
+    ["RD501_LAAT-MKIII_Balls"200,150,250],                           //  LAAT MKIII (RD501)
+    ["RD501_z95_blue",250,250,250],                                  //  Z-95 Headhunter (RD501)
+    ["RD501_v19_MKI",250,250,250],                                   //  V-19 Torrent (RD501)
+    ["RD501_arc_170_red",250,250,250],                               //  ARC 170 (RD501) - Red
+    ["RD501_arc_170_blue",250,250,250],                              //  ARC 170 (RD501) - Blue
+    ["RD501_arc_170_razor",250,250,250],                             //  ARC 170 (RD501) - Razor
+    ["RD501_drone_Clone_Recon_Droid",50,0,50],                       //  R-2 Recon Drone (RD501)
+    ["RD501_drone_razor_turret",50,25,50],                           //  Razor Prime Drone (Turret) (RD501)
+    ["RD501_drone_rep_heli",100,50,100],                             //  Elix Support Drone (RD501)
+    ["RD501_drone_rep_stealth_heli",100,50,100],                     //  Elix Support Drone (Stealth) (RD501)
+    ["RD501_drone_rep_stealth_fixedwing",250,300,200],               //  Phantom UAV (RD501)
+    ["RD501_Wombat",150,150,150],                                    //  F-99 Wombat (??) (RD501)
     ["3as_LAAT_Mk2Lights",200,100,200]                              //  LAAT MKII Lamps (3AS)
 ];
 
@@ -364,5 +364,5 @@ elite_vehicles = [
     "RD501_drone_rep_heli",                             //  Elix
     "RD501_drone_rep_stealth_heli",                     //  Elix (Stealth)
     "RD501_drone_rep_stealth_fixedwing",                //  Phantom
-    "RD501_Wombat",                                     //  Wombat
+    "RD501_Wombat"                                     //  Wombat
 ];
