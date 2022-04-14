@@ -241,13 +241,13 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39)
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
-    ["B_APC_Tracked_01_CRV_F",500,250,350],                             // CRV-6e Bobcat
-    ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
-    ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
-    ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
-    ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                   // M977A4 Repair
-    ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                         // M978A4 Fuel
-    ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
+    ["RD501_warden_tank_field",500,250,350],                            // Warden Tank Turbo
+    ["RD501_warden_tank_field",325,0,75],                               // Warden Tank Turbo
+    ["RD501_warden_tank_field",125,0,275],                              // Warden Tank Turbo
+    ["RD501_warden_tank_field",125,200,75],                             // Warden Tank Turbo
+    ["RD501_warden_tank_field",325,0,75],                               // Warden Tank Turbo
+    ["RD501_warden_tank_field",125,0,275],                              // Warden Tank Turbo
+    ["RD501_warden_tank_field",125,200,75],                             // Warden Tank Turbo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
@@ -261,82 +261,82 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_GL_F",
-    "B_soldier_AR_F",
-    "B_soldier_AR_F",
-    "B_soldier_M_F",
-    "B_medic_F",
-    "B_engineer_F"
+    "JLTS_Clone_P2_sergeant_501",               //Clone DC15A Sergeant
+    "JLTS_Clone_P2_DC15S_501",                  //Clone DC15s
+    "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
+    "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
+    "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
+    "JLTS_Clone_P2_DC15S_501",                  //Clone DC15s
+    "JLTS_Clone_P2_DC15S_501",                  //Clone DC15s
+    "JLTS_Clone_P2_DC15S_501",                  //Clone DC15s
+    "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
+    "JLTS_Clone_P2_DC15A_501"                   //Clone DC15A
 ];
 
 // Heavy infantry squad.
 blufor_squad_inf = [
-    "B_Soldier_TL_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_LAT_F",
-    "B_Soldier_GL_F",
-    "B_soldier_AR_F",
-    "B_soldier_AR_F",
-    "B_HeavyGunner_F",
-    "B_Sharpshooter_F",
-    "B_medic_F",
-    "B_engineer_F"
+    "JLTS_Clone_P2_sergeant_501",       //Clone DC15A Sergeant
+    "JTLS_Clone_P2_rto_501",            //Clone RTO
+    "JLTS_Clone_P2_DC15A_501",          //Clone DC15A
+    "JLTS_Clone_P2_ARC",                //Clone Squad ARC
+    "JLTS_Clone_P2_DC15AUGL_501",       //Clone Grenadier
+    "JLTS_Clone_P2_DC15AUGL_501",       //Clone Grenadier
+    "JLTS_Clone_P2_marksman_501",       //Clone Marksman
+    "JLTS_Clone_P2_marksman_501",       //Clone Marksman
+    "JLTS_Clone_P2_at_501",             //Clone DC15A Antitank
+    "JLTS_Clone_P2_DC15A_501"           //Clone DC15A
 ];
 
 // AT specialists squad.
 blufor_squad_at = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_soldier_AT_F",
-    "B_soldier_AT_F",
-    "B_soldier_AT_F",
-    "B_medic_F",
-    "B_soldier_F"
+    "JLTS_Clone_P2_sergeant_501",       //Clone DC15A Sergeant
+    "JLTS_Clone_P2_DC15A_501",          //Clone DC15A
+    "JLTS_Clone_P2_at_501",             //Clone DC15A Antitank
+    "JLTS_Clone_P2_at_501",             //Clone DC15A Antitank
+    "JLTS_Clone_P2_at_501",             //Clone DC15A Antitank
+    "JLTS_Clone_P2_at_501",             //Clone DC15A Antitank
+    "JLTS_Clone_P2_DC15A_501",          //Clone DC15A
+    "JLTS_Clone_P2_DC15A_501"           //Clone DC15A
 ];
 
 // AA specialists squad.
 blufor_squad_aa = [
-    "B_Soldier_TL_F",
-    "B_Soldier_F",
-    "B_Soldier_F",
-    "B_soldier_AA_F",
-    "B_soldier_AA_F",
-    "B_soldier_AA_F",
-    "B_medic_F",
-    "B_soldier_F"
+    "JLTS_Clone_P2_sergeant_501",       //Clone Sergeant
+    "JLTS_Clone_P2_DC15A_501",          //Clone DC15A
+    "JLTS_Clone_P2_DC15A_501",          //Clone DC15A
+    "SWLB_clone_aa_base_P2",            //Antiair trooper SWLB
+    "SWLB_clone_aa_base_P2",            //Antiair trooper SWLB
+    "SWLB_clone_aa_base_P2",            //Antiair trooper SWLB
+    "JLTS_Clone_P2_eod_501",            //EOD Tech
+    "JLTS_Clone_P2_DC15A_501"           //Clone DC15A
 ];
 
 // Force recon squad.
 blufor_squad_recon = [
-    "B_recon_TL_F",
-    "B_recon_F",
-    "B_recon_F",
-    "B_recon_LAT_F",
-    "B_recon_M_F",
-    "B_recon_M_F",
-    "B_Recon_Sharpshooter_F",
-    "B_Recon_Sharpshooter_F",
-    "B_recon_medic_F",
-    "B_recon_exp_F"
+    "JLTS_Clone_P2_Jesse_501",              //Jesse ARC Recon Lead
+    "JLTS_Clone_P2_Fives_501",              // Fives ARC Team Lead
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC",                    // Recon Team, ARC
+    "JLTS_Clone_P2_ARC"                     // Recon Team, ARC
 ];
 
 // Paratroopers squad (The units of this squad will automatically get parachutes on build)
 blufor_squad_para = [
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F",
-    "B_soldier_PG_F"
+    "JTLS_Clone_P2_ABNCO_501",      // Airborne NCO
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501",         // Airbone Regular Troopers
+    "JTLS_Clone_P2_AB_501"          // Airbone Regular Troopers
 ];
 
 /*
