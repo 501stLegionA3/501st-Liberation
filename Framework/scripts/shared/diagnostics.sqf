@@ -1,7 +1,7 @@
 private _source = "";
 
 ["------------------------------------", "MISSIONSTART"] call KPLIB_fnc_log;
-[format ["Name: %1", (localize "STR_MISSION_TITLE")], "MISSIONSTART"] call KPLIB_fnc_log;
+[format ["Name: %1", (localize "STR_MISSION_TITLE_2")], "MISSIONSTART"] call KPLIB_fnc_log;
 [format ["World: %1", worldName], "MISSIONSTART"] call KPLIB_fnc_log;
 [format ["Version: %1", (localize "STR_MISSION_VERSION")], "MISSIONSTART"] call KPLIB_fnc_log;
 [format ["Author: %1", [missionConfigFile] call BIS_fnc_overviewAuthor], "MISSIONSTART"] call KPLIB_fnc_log;

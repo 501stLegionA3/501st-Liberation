@@ -46,10 +46,14 @@
 <Project name="Liberation">
     <Package name="Liberation">
         <Key ID="STR_MISSION_TITLE">
-            <Original>501st Liberation Altis v0.1</Original>
+            <Original>CTI 34 KP Liberation Altis v0.96.7a</Original>
+        </Key>
+        <!--The build script which isnt in this repo regex replaces the mission title which is why it cant be changed...-->
+        <Key ID="STR_MISSION_TITLE_2">
+            <Original>501st Liberation Altis</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
-            <Original>v0.1</Original>
+            <Original>v0.96.7a</Original>
         </Key>
         <Key ID="STR_Deploy_OnPoint">
             <Original>Deploy</Original>
