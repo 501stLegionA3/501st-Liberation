@@ -20,26 +20,26 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "Land_Cargo_HQ_V1_F";                                    // This is the main FOB HQ building.
-FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
+FOB_typename = "3as_FOB_Building_2_prop";                                    // This is the main FOB HQ building.
+FOB_box_typename = "3as_Big_box_1_prop";                            // This is the FOB as a container.
 FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
 huron_typename = "RD501_nuclass_mk1";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
 pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "RD501_LAAT_MKIII_Balls";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "RD501_Laat_LE";              // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
-KP_liberation_truck_classname = "442_argon_transport";               // These are the trucks which are used in the logistic convoy system.
+KP_liberation_truck_classname = "B_Truck_01_flatbed_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
 KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
-KP_liberation_supply_crate = "CargoNet_01_box_F";                       // This defines the supply crates, as in resources.
-KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                      // This defines the ammunition crates.
-KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
+KP_liberation_supply_crate = "3as_crate5_3";                       // This defines the supply crates, as in resources.
+KP_liberation_ammo_crate = "RD501_ValmoricBox";                      // This defines the ammunition crates.
+KP_liberation_fuel_crate = "3as_Barrel_prop";                     // This defines the fuel crates.
 
 /*
     --- Friendly classnames ---
@@ -71,44 +71,44 @@ light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                    //  Quad Bike
     ["B_Boat_Transport_01_F",100,0,25],                             //  Assault Boat
     ["RD501_speedboat_republic",200,80,75],                         //  Speedboat Minigun
-    ["B_SDV_01_F",150,0,50],                                        //  SDV
+    ["B_SDV_01_F",150,0,50]                                         //  SDV
     ["442_argon_transport",125,0,75],                               //  Argon Transport
     ["442_argon_covered",125,0,75],                                 //  Argon Transport (Covered)
-    ["RD501_bantha_501st_MkI_HALO",350,100,150],                    //  Bantha (HALO)
-    ["RD501_warden_tank_mobile",400,200,200],                       //  Warden Tank
-    ["RD501_warden_tank_field",500,250,250],                        //  Warden Tank (Field)
-    ["RD501_gar_rtt",125,0,75],                                     //  RTT
-    ["RD501_fast_infantry_transport_republic",125,0,50],            //  Pathfinder
-    ["RD501_fast_infantry_transport_republic",125,0,50],            //  Pathfinder (Medical)
-    ["3AS_Barc_501",50,0,25],                                       //  Barc
+    ["RD501_bantha_501st_MkI_HALO",350,100,150]                     //  Bantha (HALO)
+    ["RD501_warden_tank_mobile",400,200,200]                        //  Warden Tank
+    ["RD501_warden_tank_field",500,250,250]                         //  Warden Tank (Field)
+    ["RD501_gar_rtt",125,0,75]                                      //  RTT
+    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder
+    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder (Medical)
+    ["3AS_Barc_501",50,0,25]                                        //  Barc
     ["3AS_BarcSideCar_501",50,25,25]                                //  Barc (Sidecar)
 ];
 
 heavy_vehicles = [
-    ["3as_Jug",750,350,300],                                         //  Juggy Wuggy
-    ["3as_AV7",250,500,150],                                         //  AV7
-    ["3as_ATTE_Base",350,350,300],                                   //  ATTE
-    ["RD501_walker_republic_atap_MkII",300,250,250],                 //  ATAP
-    ["RD501_saber_republic_tx130_gl_MkII",250,150,150],              //  TX-130 "Saber Tank" GL Variant
+    ["3as_Jug",750,350,300]                                         //  Juggy Wuggy
+    ["3as_AV7",250,500,150]                                         //  AV7
+    ["3as_ATTE_Base",350,350,300]                                   //  ATTE
+    ["RD501_walker_republic_atap_MkII",300,250,250]                 //  ATAP
+    ["RD501_saber_republic_tx130_gl_MkII",250,150,150]              //  TX-130 "Saber Tank" GL Variant
     ["RD501_saber_republic_tx130_super_MkII",250,200,150]           //  TX-130 "Super Saber"
 ];
 
 air_vehicles = [
-    ["RD501_nuclass_mk1",250,50,250],                                //  Nu Class (RD501)
-    ["RD501_Laat_LE",150,50,200],                                    //  LAAT-LE (RD501)
-    ["RD501_Laat_C",200,0,200],                                      //  LAAT-C (RD501)
-    ["RD501_LAAT-MKIII_Balls",200,150,250],                           //  LAAT MKIII (RD501)
-    ["RD501_z95_blue",250,250,250],                                  //  Z-95 Headhunter (RD501)
-    ["RD501_v19_MKI",250,250,250],                                   //  V-19 Torrent (RD501)
-    ["RD501_arc_170_red",250,250,250],                               //  ARC 170 (RD501) - Red
-    ["RD501_arc_170_blue",250,250,250],                              //  ARC 170 (RD501) - Blue
-    ["RD501_arc_170_razor",250,250,250],                             //  ARC 170 (RD501) - Razor
-    ["RD501_drone_Clone_Recon_Droid",50,0,50],                       //  R-2 Recon Drone (RD501)
-    ["RD501_drone_razor_turret",50,25,50],                           //  Razor Prime Drone (Turret) (RD501)
-    ["RD501_drone_rep_heli",100,50,100],                             //  Elix Support Drone (RD501)
-    ["RD501_drone_rep_stealth_heli",100,50,100],                     //  Elix Support Drone (Stealth) (RD501)
-    ["RD501_drone_rep_stealth_fixedwing",250,300,200],               //  Phantom UAV (RD501)
-    ["RD501_Wombat",150,150,150],                                    //  F-99 Wombat (??) (RD501)
+    ["RD501_nuclass_mk1",250,50,250]                                //  Nu Class (RD501)
+    ["RD501_Laat_LE",150,50,200]                                    //  LAAT-LE (RD501)
+    ["RD501_Laat_C",200,0,200]                                      //  LAAT-C (RD501)
+    ["RD501_LAAT-MKIII_Balls"200,150,250]                           //  LAAT MKIII (RD501)
+    ["RD501_z95_blue",250,250,250]                                  //  Z-95 Headhunter (RD501)
+    ["RD501_v19_MKI",250,250,250]                                   //  V-19 Torrent (RD501)
+    ["RD501_arc_170_red",250,250,250]                               //  ARC 170 (RD501) - Red
+    ["RD501_arc_170_blue",250,250,250]                              //  ARC 170 (RD501) - Blue
+    ["RD501_arc_170_razor",250,250,250]                             //  ARC 170 (RD501) - Razor
+    ["RD501_drone_Clone_Recon_Droid",50,0,50]                       //  R-2 Recon Drone (RD501)
+    ["RD501_drone_razor_turret",50,25,50]                           //  Razor Prime Drone (Turret) (RD501)
+    ["RD501_drone_rep_heli",100,50,100]                             //  Elix Support Drone (RD501)
+    ["RD501_drone_rep_stealth_heli",100,50,100]                     //  Elix Support Drone (Stealth) (RD501)
+    ["RD501_drone_rep_stealth_fixedwing",250,300,200]               //  Phantom UAV (RD501)
+    ["RD501_Wombat",150,150,150]                                    //  F-99 Wombat (??) (RD501)
     ["3as_LAAT_Mk2Lights",200,100,200]                              //  LAAT MKII Lamps (3AS)
 ];
 
@@ -132,6 +132,7 @@ buildings = [
     ["Land_Cargo_Tower_V1_F",0,0,0],
     ["Flag_NATO_F",0,0,0],
     ["Flag_US_F",0,0,0],
+    ["ls_flag_republic",0,0,0],
     ["BWA3_Flag_Ger_F",0,0,0],
     ["Flag_UK_F",0,0,0],
     ["Flag_White_F",0,0,0],
@@ -149,6 +150,7 @@ buildings = [
     ["Land_LampAirport_F",0,0,0],
     ["Land_HelipadCircle_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
     ["Land_HelipadRescue_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
+    ["ls_landingpad_wide",0,0,0],                                       // Strictly aesthetic - as in it does not increase helicopter cap!
     ["PortableHelipadLight_01_blue_F",0,0,0],
     ["PortableHelipadLight_01_green_F",0,0,0],
     ["PortableHelipadLight_01_red_F",0,0,0],
@@ -202,7 +204,10 @@ buildings = [
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
     ["Land_Razorwire_F",0,0,0],
-    ["Land_ClutterCutter_large_F",0,0,0]
+    ["Land_ClutterCutter_large_F",0,0,0],
+    ["RD501_bacta_healing",0,0,0],
+    ["RD501_Squad_Shield_trench",0,0,0],
+    ["ls_stone_cover",0,0,0]
 ];
 
 support_vehicles = [
@@ -349,7 +354,7 @@ elite_vehicles = [
     "RD501_saber_republic_tx130_gl_MkII",               //  TX-130 GL
     "RD501_saber_republic_tx130_super_MkII",            //  TX-130 Super
     "RD501_Laat_C",                                     //  LAAT-C
-    "RD501_Laat_LE",                                    //  LAAT-LE
+    "RD501_LAAT_MKIII_Balls",                           //  LAAT
     "RD501_z95_blue",                                   //  Z-95
     "RD501_v19_MKI",                                    //  V-19
     "RD501_arc_170_red",                                //  ARC 170 (Red)
@@ -359,5 +364,5 @@ elite_vehicles = [
     "RD501_drone_rep_heli",                             //  Elix
     "RD501_drone_rep_stealth_heli",                     //  Elix (Stealth)
     "RD501_drone_rep_stealth_fixedwing",                //  Phantom
-    "RD501_Wombat"                                      //  Wombat
+    "RD501_Wombat",                                     //  Wombat
 ];

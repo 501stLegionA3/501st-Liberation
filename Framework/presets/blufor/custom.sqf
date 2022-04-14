@@ -20,26 +20,26 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "Land_Cargo_HQ_V1_F";                                    // This is the main FOB HQ building.
-FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
+FOB_typename = "3as_FOB_Building_2_prop";                                    // This is the main FOB HQ building.
+FOB_box_typename = "3as_Big_box_1_prop";                            // This is the FOB as a container.
 FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
 huron_typename = "RD501_nuclass_mk1";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
 pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "RD501_LAAT_MKIII_Balls";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "RD501_Laat_LE";              // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
-KP_liberation_truck_classname = "442_argon_covered", "442_argon_transport";               // These are the trucks which are used in the logistic convoy system.
+KP_liberation_truck_classname = "B_Truck_01_flatbed_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
 KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
-KP_liberation_supply_crate = "CargoNet_01_box_F";                       // This defines the supply crates, as in resources.
-KP_liberation_ammo_crate = "B_CargoNet_01_ammo_F";                      // This defines the ammunition crates.
-KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
+KP_liberation_supply_crate = "3as_crate5_3";                       // This defines the supply crates, as in resources.
+KP_liberation_ammo_crate = "RD501_ValmoricBox";                      // This defines the ammunition crates.
+KP_liberation_fuel_crate = "3as_Barrel_prop";                     // This defines the fuel crates.
 
 /*
     --- Friendly classnames ---
@@ -132,6 +132,7 @@ buildings = [
     ["Land_Cargo_Tower_V1_F",0,0,0],
     ["Flag_NATO_F",0,0,0],
     ["Flag_US_F",0,0,0],
+    ["ls_flag_republic",0,0,0],
     ["BWA3_Flag_Ger_F",0,0,0],
     ["Flag_UK_F",0,0,0],
     ["Flag_White_F",0,0,0],
@@ -149,6 +150,7 @@ buildings = [
     ["Land_LampAirport_F",0,0,0],
     ["Land_HelipadCircle_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
     ["Land_HelipadRescue_F",0,0,0],                                     // Strictly aesthetic - as in it does not increase helicopter cap!
+    ["ls_landingpad_wide",0,0,0],                                       // Strictly aesthetic - as in it does not increase helicopter cap!
     ["PortableHelipadLight_01_blue_F",0,0,0],
     ["PortableHelipadLight_01_green_F",0,0,0],
     ["PortableHelipadLight_01_red_F",0,0,0],
@@ -202,7 +204,10 @@ buildings = [
     ["Land_Sign_WarningMilAreaSmall_F",0,0,0],
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
     ["Land_Razorwire_F",0,0,0],
-    ["Land_ClutterCutter_large_F",0,0,0]
+    ["Land_ClutterCutter_large_F",0,0,0],
+    ["RD501_bacta_healing",0,0,0],
+    ["RD501_Squad_Shield_trench",0,0,0],
+    ["ls_stone_cover",0,0,0]
 ];
 
 support_vehicles = [
@@ -349,7 +354,7 @@ elite_vehicles = [
     "RD501_saber_republic_tx130_gl_MkII",               //  TX-130 GL
     "RD501_saber_republic_tx130_super_MkII",            //  TX-130 Super
     "RD501_Laat_C",                                     //  LAAT-C
-    "RD501_Laat_LE",                                    //  LAAT-LE
+    "RD501_LAAT_MKIII_Balls",                           //  LAAT
     "RD501_z95_blue",                                   //  Z-95
     "RD501_v19_MKI",                                    //  V-19
     "RD501_arc_170_red",                                //  ARC 170 (Red)
