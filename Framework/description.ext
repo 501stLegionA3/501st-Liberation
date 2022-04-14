@@ -25,7 +25,7 @@ class Header {
 };
 
 // Name of Mission author(s) and contributors. Obviously you can only add and not (!) remove someone.
-author = "[GREUH] Zbug & McKeewa, KP Liberation Dev Team";
+author = "[GREUH] Zbug & McKeewa, KP Liberation Dev Team, 501st Liberation Team";
 
 
 /*
@@ -33,14 +33,14 @@ author = "[GREUH] Zbug & McKeewa, KP Liberation Dev Team";
 */
 
 // Mission name displayed in the mission selection menu.
-briefingName = $STR_MISSION_TITLE;
+briefingName = "501st Liberation V0.1";
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
 overviewPicture = "res\lib.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
-overviewText = "www.killahpotatoes.de";
+overviewText = "https://github.com/501stLegionA3/501st-Liberation/";
 
 
 /*
@@ -49,14 +49,14 @@ overviewText = "www.killahpotatoes.de";
 
 // String (usually mission name) shown during mission loading.
 // The string is shown in a slightly larger font above the loadScreen.
-onLoadName = $STR_MISSION_TITLE;
+onLoadName = "501st Liberation V0.1";
 
 // You can define a picture to be shown while the mission is loaded.
 // The path is relative to the mission folder.
 loadScreen = "res\lib.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
-onLoadMission = "www.killahpotatoes.de";
+onLoadMission = "https://github.com/501stLegionA3/501st-Liberation/";
 
 
 /*
