@@ -3,7 +3,7 @@ class Params {
         title = $STR_PARAMS_LOADSAVEPARAMS;
         values[] = {0, 1, 2};
         texts[] = {$STR_PARAMS_LOADSAVEPARAMS_SAVE, $STR_PARAMS_LOADSAVEPARAMS_LOAD, $STR_PARAMS_LOADSAVEPARAMS_SELECTED};
-        default = 1; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
+        default = 2; // If you want to set mission parameters via server.cfg or this file, then set this value to 2
     };
     class Spacer0 {
         title = "";
@@ -27,7 +27,7 @@ class Params {
         title = $STR_PARAMS_DIFFICULTY;
         values[] = {0, 1, 2, 3, 4, 5, 6, 7};
         texts[] = {$STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8};
-        default = 2;
+        default = 3;
     };
     class Aggressivity {
         title = $STR_AGGRESSIVITY_PARAM;
@@ -93,7 +93,7 @@ class Params {
         title = $STR_SHORTER_NIGHTS_PARAM;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 0;
+        default = 1;
     };
     class Weather {
         title = $STR_WEATHER_PARAM;
@@ -153,7 +153,7 @@ class Params {
         title = $STR_A3_ReviveMode;
         values[] = {0, 1};
         texts[] = {$STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-        default = 1;
+        default = 0;
     };
     class ReviveDuration {
         title = $STR_A3_ReviveDuration;
@@ -213,7 +213,7 @@ class Params {
         title = $STR_PARAMS_FATIGUE;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-        default = 1;
+        default = 0;
     };
     class WeaponSway {
         title = $STR_PARAM_WEAPSWAY;
@@ -273,7 +273,7 @@ class Params {
         title = $STR_HALO_PARAM;
         values[] = {1, 5, 10, 15, 20, 30, 0};
         texts[] = {$STR_HALO_PARAM1, $STR_HALO_PARAM2, $STR_HALO_PARAM3, $STR_HALO_PARAM4, $STR_HALO_PARAM5, $STR_HALO_PARAM6, $STR_PARAMS_DISABLED};
-        default = 5;
+        default = 0;
     };
     class ClearCargo {
         title = $STR_PARAM_CLEAR_CARGO;
@@ -375,7 +375,7 @@ class Params {
         title = $STR_RESTART_PARAM;
         values[] = {0, 1, 2, 3, 4, 5, 6};
         texts[] = {$STR_PARAMS_DISABLED, "1", "2", "3", "4", "5", "6"};
-        default = 0;
+        default = 6;
     };
     class WipeSave1 {
         title = $STR_WIPE_TITLE;
