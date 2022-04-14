@@ -74,13 +74,13 @@ light_vehicles = [
     ["B_SDV_01_F",150,0,50]                                         //  SDV
     ["442_argon_transport",125,0,75],                               //  Argon Transport
     ["442_argon_covered",125,0,75],                                 //  Argon Transport (Covered)
-    ["RD501_bantha_501st_MkI_HALO",350,100,150]                     //  Bantha (HALO)
-    ["RD501_warden_tank_mobile",400,200,200]                        //  Warden Tank
-    ["RD501_warden_tank_field",500,250,250]                         //  Warden Tank (Field)
-    ["RD501_gar_rtt",125,0,75]                                      //  RTT
-    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder
-    ["RD501_fast_infantry_transport_republic",125,0,50]             //  Pathfinder (Medical)
-    ["3AS_Barc_501",50,0,25]                                        //  Barc
+    ["RD501_bantha_501st_MkI_HALO",350,100,150],                    //  Bantha (HALO)
+    ["RD501_warden_tank_mobile",400,200,200],                       //  Warden Tank
+    ["RD501_warden_tank_field",500,250,250],                        //  Warden Tank (Field)
+    ["RD501_gar_rtt",125,0,75],                                     //  RTT
+    ["RD501_fast_infantry_transport_republic",125,0,50],            //  Pathfinder
+    ["RD501_fast_infantry_transport_republic",125,0,50],            //  Pathfinder (Medical)
+    ["3AS_Barc_501",50,0,25],                                       //  Barc
     ["3AS_BarcSideCar_501",50,25,25]                                //  Barc (Sidecar)
 ];
 
