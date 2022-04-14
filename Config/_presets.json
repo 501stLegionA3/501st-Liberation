@@ -2,7 +2,7 @@
     {
         "sourceFolder": "kp_liberation.Altis",
 
-        "missionName": "kp_liberation",
+        "missionName": "501st_liberation",
         "map": "Altis",
 
         "configFile": "kp_liberation_config.sqf",
