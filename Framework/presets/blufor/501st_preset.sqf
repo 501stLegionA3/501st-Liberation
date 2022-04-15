@@ -250,8 +250,8 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39)
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
-    ["RD501_warden_tank_field",500,250,350],                            // Warden Tank Turbo
-    ["RD501_warden_tank_mobile",325,0,75],                               // Warden Tank Turbo
+    ["RD501_warden_tank_field",400,400,400],                            // Warden Tank Turbo
+    ["RD501_warden_tank_mobile",300,300,300],                               // Warden Tank
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
