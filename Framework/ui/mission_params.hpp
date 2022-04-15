@@ -63,7 +63,7 @@ class Params {
         title = $STR_PARAM_FOBS_COUNT;
         values[] = {3, 5, 7, 10, 15, 20, 26};
         texts[] = {3, 5, 7, 10, 15, 20, 26};
-        default = 10;
+        default = 20;
     };
     class MaxSquadSize {
         title = $STR_PARAM_SQUAD_SIZE;
@@ -381,13 +381,13 @@ class Params {
         title = $STR_WIPE_TITLE;
         values[] = {0, 1};
         texts[] =  {$STR_WIPE_NO, $STR_WIPE_YES};
-        default = 0;
+        default = 1;
     };
     class WipeSave2 {
         title = $STR_WIPE_TITLE_2;
         values[] = {0, 1};
         texts[] = {$STR_WIPE_NO, $STR_WIPE_YES};
-        default = 0;
+        default = 1;
     };
     class Spacer4 {
         title = "";

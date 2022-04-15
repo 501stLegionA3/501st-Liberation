@@ -286,7 +286,7 @@ KPLIB_radioTowerClassnames = [
 ];
 
 /* - Default arsenal blacklist method.
-Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
+Useless if you're using anything other than "kp_liberation_arsenal = 1;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.    */
 blacklisted_from_arsenal = [
     "B_AA_01_weapon_F",
