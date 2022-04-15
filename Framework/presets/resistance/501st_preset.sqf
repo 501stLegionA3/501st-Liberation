@@ -33,22 +33,23 @@ There are 3 tiers for every category. If the strength of the guerillas will incr
 /* Weapons - You've to add the weapons as array like
 ["Weaponclassname","Magazineclassname","magazine amount","optic","tripod"]
 You can leave optic and tripod empty with "" */
+
 KP_liberation_guerilla_weapons_1 = [
-    ["RD501_Westar_35s","RD501_westar_x35_mag",5,"swlw_westar35s_scope",""],
-    ["RD501_Westar_35c","RD501_westar_x35_mag",5,"",""]
+    ["RD501_Westar_35s","RD501_westar_x35_mag","5","swlw_westar35s_scope",""],
+    ["RD501_Westar_35c","RD501_westar_x35_mag","5","",""]
 ];
 
 KP_liberation_guerilla_weapons_2 = [
-    ["RD501_Westar_35s","RD501_westar_x35_mag",5,"swlw_westar35s_scope",""],
-    ["RD501_Westar_35c","RD501_westar_x35_mag",5,"",""],
-    ["RD501_dc_34","RD501_westar_x60_mag",5,"aux327th_holosight_blu",""],
-    ["RD501_iqa_11","RD501_westar_x15_mag",5,"swlw_sniper_scope",""]
+    ["RD501_Westar_35s","RD501_westar_x35_mag","5","swlw_westar35s_scope",""],
+    ["RD501_Westar_35c","RD501_westar_x35_mag","5","",""],
+    ["RD501_dc_34","RD501_westar_x60_mag","5","aux327th_holosight_blu",""],
+    ["RD501_iqa_11","RD501_westar_x15_mag","5","swlw_sniper_scope",""]
 ];
 
 KP_liberation_guerilla_weapons_3 = [
-    ["RD501_Westar_35s","RD501_westar_x35_mag",5,"swlw_westar35s_scope",""],
-    ["RD501_dc_34","RD501_westar_x60_mag",5,"aux327th_holosight_blu",""],
-    ["RD501_iqa_11","RD501_westar_x15_mag",5,"swlw_sniper_scope",""]
+    ["RD501_Westar_35s","RD501_westar_x35_mag","5","swlw_westar35s_scope",""],
+    ["RD501_dc_34","RD501_westar_x60_mag","5","aux327th_holosight_blu",""],
+    ["RD501_iqa_11","RD501_westar_x15_mag","5","swlw_sniper_scope",""]
 ];
 
 // Uniforms
