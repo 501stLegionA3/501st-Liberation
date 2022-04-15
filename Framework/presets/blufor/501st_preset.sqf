@@ -112,7 +112,7 @@ static_vehicles = [
     ["RD501_stat_Railgun"75,100,0],                                   // Driver
     ["RD501_Republic_Static_AA_SR_ML"80,100,0],                       // MRC ML
     ["RD501_Republic_Static_AA_LR_ML_active"100,100,0],               // LRAD ML
-    ["RD501_Republic_SHORAD"100,125,0]                                // SHORAD
+    ["RD501_Republic_SHORAD"100,125,0],                               // SHORAD
     ["RD501_mortar_republic"50,75,0]                                  // Plasma Mortar
 ];
 
