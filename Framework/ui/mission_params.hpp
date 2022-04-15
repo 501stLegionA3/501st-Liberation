@@ -375,7 +375,7 @@ class Params {
         title = $STR_RESTART_PARAM;
         values[] = {0, 1, 2, 3, 4, 5, 6};
         texts[] = {$STR_PARAMS_DISABLED, "1", "2", "3", "4", "5", "6"};
-        default = 6;
+        default = 0;
     };
     class WipeSave1 {
         title = $STR_WIPE_TITLE;
