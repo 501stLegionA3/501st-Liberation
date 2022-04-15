@@ -21,7 +21,7 @@
     Or not, just don't try!
 */
 FOB_typename = "3as_FOB_Building_2_prop";                                    // This is the main FOB HQ building.
-FOB_box_typename = "3as_Big_box_1_prop";                            // This is the FOB as a container.
+FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
 FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
