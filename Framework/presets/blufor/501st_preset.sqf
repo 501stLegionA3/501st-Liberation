@@ -107,7 +107,6 @@ air_vehicles = [
 ];
 
 static_vehicles = [
-    ["RD501_stat_reweb",50,50,0],                                      // EWHB-12
     ["RD501_stat_Striker",50,75,0],                                    // Striker
     ["RD501_stat_Railgun",75,100,0],                                   // Driver
     ["RD501_Republic_Static_AA_SR_ML",80,100,0],                       // MRC ML
