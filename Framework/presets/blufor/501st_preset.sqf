@@ -50,7 +50,7 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["ls_meme_theNut_UnArmed_base",666,666,666]                                 // The Almighty Nut
+    ["ls_meme_theNut_UnArmed_base",666,666,666],                                 // The Almighty Nut
     ["JLTS_Clone_P2_DC15S_501",15,0,0],                                        // Rifleman (Light)
     ["JLTS_Clone_P2_DC15A_501",20,0,0],                                             // Rifleman
     ["JLTS_Clone_P2_at_501",30,0,0],                                         // Rifleman (AT)
