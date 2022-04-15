@@ -37,9 +37,9 @@ KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The b
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
-KP_liberation_supply_crate = "3as_crate5_3";                       // This defines the supply crates, as in resources.
-KP_liberation_ammo_crate = "RD501_ValmoricBox";                      // This defines the ammunition crates.
-KP_liberation_fuel_crate = "3as_Barrel_prop";                     // This defines the fuel crates.
+KP_liberation_supply_crate = "B_CargoNet_01_ammo_F";                       // This defines the supply crates, as in resources.
+KP_liberation_ammo_crate = "CargoNet_01_box_F";                      // This defines the ammunition crates.
+KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
 
 /*
     --- Friendly classnames ---
@@ -75,8 +75,6 @@ light_vehicles = [
     ["442_argon_transport",125,0,75],                               //  Argon Transport
     ["442_argon_covered",125,0,75],                                 //  Argon Transport (Covered)
     ["RD501_bantha_501st_MkI_HALO",350,100,150],                     //  Bantha (HALO)
-    ["RD501_warden_tank_mobile",400,200,200],                        //  Warden Tank
-    ["RD501_warden_tank_field",500,250,250],                         //  Warden Tank (Field)
     ["RD501_gar_rtt",125,0,75],                                      //  RTT
     ["RD501_fast_infantry_transport_republic",125,0,50],             //  Pathfinder
     ["RD501_fast_infantry_transport_republic",125,0,50],             //  Pathfinder (Medical)
@@ -207,6 +205,17 @@ buildings = [
     ["Land_ClutterCutter_large_F",0,0,0],
     ["RD501_bacta_healing",0,0,0],
     ["RD501_Squad_Shield_trench",0,0,0],
+    ["RD501_ValmoricBox",0,0,0],
+    ["3as_prop_fob_modular_wall_bunker"],
+    ["3as_prop_fob_modular_wall_corner_inversed"],
+    ["3as_prop_fob_modular_wall_corner"],
+    ["3as_prop_fob_modular_wall_gate"],
+    ["3as_prop_fob_modular_wall_door"],
+    ["3as_prop_fob_modular_wall_ramp"],
+    ["3as_prop_fob_modular_wall_straight_long"],
+    ["3as_prop_fob_modular_wall_straight"],
+    ["3as_prop_fob_modular_wall_watchtower"],
+    ["3as_prop_fob_modular_watchtower"],
     ["ls_stone_cover",0,0,0]
 ];
 
@@ -242,12 +251,7 @@ support_vehicles = [
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["CUP_B_TowingTractor_NATO",50,0,25],                               // Towing Tractor
     ["RD501_warden_tank_field",500,250,350],                            // Warden Tank Turbo
-    ["RD501_warden_tank_field",325,0,75],                               // Warden Tank Turbo
-    ["RD501_warden_tank_field",125,0,275],                              // Warden Tank Turbo
-    ["RD501_warden_tank_field",125,200,75],                             // Warden Tank Turbo
-    ["RD501_warden_tank_field",325,0,75],                               // Warden Tank Turbo
-    ["RD501_warden_tank_field",125,0,275],                              // Warden Tank Turbo
-    ["RD501_warden_tank_field",125,200,75],                             // Warden Tank Turbo
+    ["RD501_warden_tank_mobile",325,0,75],                               // Warden Tank Turbo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
@@ -345,8 +349,6 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
-    "RD501_warden_tank_field",                          //  Warden Tank (Field)
-    "3AS_BarcSideCar_501",                              //  BARC Speeder (Sidecar Variant)
     "3as_Jug",                                          //  Juggie Wuggie
     "3as_AV7",                                          //  AV-7
     "3as_ATTE_Base",                                    //  ATTE
