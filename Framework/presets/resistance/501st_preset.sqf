@@ -10,16 +10,16 @@
 Standard loadout of the units will be replaced with a scripted one, which depends on the guerilla strength, after spawn */
 KP_liberation_guerilla_units = [
     "RD501_opfor_unit_deathwatch_commander",
-"RD501_opfor_unit_deathwatch_captain",
-"RD501_opfor_unit_deathwatch_aa",
-"RD501_opfor_unit_deathwatch_at_heavy",
-"RD501_opfor_unit_deathwatch_at_light",
-"RD501_opfor_unit_deathwatch_honorguard",
-"RD501_opfor_unit_deathwatch_marksmen",
-"RD501_opfor_unit_deathwatch_shotgun",
-"RD501_opfor_unit_deathwatch_trooper",
-"RD501_opfor_unit_deathwatch_support",
-"RD501_opfor_unit_deathwatch_nco"
+    "RD501_opfor_unit_deathwatch_captain",
+    "RD501_opfor_unit_deathwatch_aa",
+    "RD501_opfor_unit_deathwatch_at_heavy",
+    "RD501_opfor_unit_deathwatch_at_light",
+    "RD501_opfor_unit_deathwatch_honorguard",
+    "RD501_opfor_unit_deathwatch_marksmen",
+    "RD501_opfor_unit_deathwatch_shotgun",
+    "RD501_opfor_unit_deathwatch_trooper",
+    "RD501_opfor_unit_deathwatch_support",
+    "RD501_opfor_unit_deathwatch_nco"
 ];
 
 // Armed vehicles
@@ -35,7 +35,7 @@ There are 3 tiers for every category. If the strength of the guerillas will incr
 You can leave optic and tripod empty with "" */
 KP_liberation_guerilla_weapons_1 = [
     ["RD501_Westar_35s","RD501_westar_x35_mag",5,"swlw_westar35s_scope",""],
-    ["RD501_Westar_35c","RD501_westar_x35_mag",5,"",""],
+    ["RD501_Westar_35c","RD501_westar_x35_mag",5,"",""]
 ];
 
 KP_liberation_guerilla_weapons_2 = [
@@ -53,7 +53,7 @@ KP_liberation_guerilla_weapons_3 = [
 
 // Uniforms
 KP_liberation_guerilla_uniforms_1 = [
-    "RD501_Mandalorian_undersuit",
+    "RD501_Mandalorian_undersuit"
 ];
 
 KP_liberation_guerilla_uniforms_2 = [
