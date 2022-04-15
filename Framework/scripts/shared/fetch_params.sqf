@@ -4,8 +4,8 @@
 if (isClass (configfile >> "CfgPatches" >> "ace_common")) then {KP_liberation_ace = true; ["ACE detected. Deactivating resupply script from Liberation.", "MOD"] call KPLIB_fnc_log;} else {KP_liberation_ace = false};
 
 /* Not saveable params */
-GRLIB_param_wipe_savegame_1 = ["WipeSave1", 0] call bis_fnc_getParamValue;
-GRLIB_param_wipe_savegame_2 = ["WipeSave2", 0] call bis_fnc_getParamValue;
+GRLIB_param_wipe_savegame_1 = ["WipeSave1", 1] call bis_fnc_getParamValue;
+GRLIB_param_wipe_savegame_2 = ["WipeSave2", 1] call bis_fnc_getParamValue;
 KP_liberation_civinfo_debug = ["DebugCivInfo", 0] call bis_fnc_getParamValue;
 KP_liberation_civrep_debug = ["DebugCivRep", 0] call bis_fnc_getParamValue;
 KP_liberation_savegame_debug = ["DebugSave", 0] call bis_fnc_getParamValue;
