@@ -245,7 +245,7 @@ support_vehicles = [
 
 // Light infantry squad.
 blufor_squad_inf_light = [
-    "JLTS_Clone_P2_sergeant_501",               //Clone DC15A Sergeant
+    "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
     "JLTS_Clone_P2_DC15S_501",                  //Clone DC15s
     "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
     "JLTS_Clone_P2_DC15A_501",                  //Clone DC15A
