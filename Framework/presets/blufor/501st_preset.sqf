@@ -104,7 +104,6 @@ air_vehicles = [
     ["RD501_drone_rep_stealth_heli",200,100,150],                     //  Elix Support Drone (Stealth) (RD501)
     ["RD501_drone_rep_stealth_fixedwing",250,250,200],               //  Phantom UAV (RD501)
     ["RD501_Wombat",150,150,150],                                    //  F-99 Wombat (??) (RD501)
-    ["3as_LAAT_Mk2Lights",200,200,225]                              //  LAAT MKII Lamps (3AS)
 ];
 
 static_vehicles = [
