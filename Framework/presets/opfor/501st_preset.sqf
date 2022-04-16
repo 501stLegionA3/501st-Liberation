@@ -47,16 +47,28 @@ militia_squad = [
     "RD501_opfor_unit_B1",                                                     // Rifleman (Lite)
     "RD501_opfor_unit_B1",                                                     // Rifleman
     "RD501_opfor_unit_B1",                                                     // Rifleman
-    "RD501_opfor_unit_B1_AT_light",                                                 // Rifleman (AT)
-    "RD501_opfor_unit_B1_heavy",                                                  // Autorifleman
-    "RD501_opfor_unit_B1_marksman",                                                   // Marksman
-    "RD501_opfor_unit_B1",                                               // Medic
-    "RD501_opfor_unit_B1"                                                    // Engineer
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1",                                                     // Rifleman
+    "RD501_opfor_unit_B1_AT_light",                                            // Rifleman (AT)
+    "RD501_opfor_unit_B1_AT_light",                                            // Rifleman (AT)
+    "RD501_opfor_unit_B1_heavy",                                               // Autorifleman
+    "RD501_opfor_unit_B1_heavy",                                               // Autorifleman
+    "RD501_opfor_unit_B1_marksman",                                            // Marksman
+    "RD501_opfor_unit_B1",                                                     // Medic
+    "RD501_opfor_unit_B1"                                                      // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "RD501_Loyalist_Gladius"                                                  // Qilin (armed)
+    "RD501_Loyalist_Gladius",                                                  // Qilin (armed)
+    "RD501_Loyalist_Scimitar"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
