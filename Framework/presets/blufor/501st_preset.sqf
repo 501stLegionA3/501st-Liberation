@@ -119,12 +119,7 @@ buildings = [
     ["Land_Cargo_House_V1_F",0,0,0],
     ["Land_Cargo_Patrol_V1_F",0,0,0],
     ["Land_Cargo_Tower_V1_F",0,0,0],
-    ["Flag_NATO_F",0,0,0],
-    ["Flag_US_F",0,0,0],
     ["ls_flag_republic",0,0,0],
-    ["BWA3_Flag_Ger_F",0,0,0],
-    ["Flag_UK_F",0,0,0],
-    ["Flag_White_F",0,0,0],
     ["Land_Medevac_house_V1_F",0,0,0],
     ["Land_Medevac_HQ_V1_F",0,0,0],
     ["Flag_RedCrystal_F",0,0,0],
@@ -146,9 +141,6 @@ buildings = [
     ["Land_CampingChair_V1_F",0,0,0],
     ["Land_CampingChair_V2_F",0,0,0],
     ["Land_CampingTable_F",0,0,0],
-    ["MapBoard_altis_F",0,0,0],
-    ["MapBoard_stratis_F",0,0,0],
-    ["MapBoard_seismic_F",0,0,0],
     ["Land_Pallet_MilBoxes_F",0,0,0],
     ["Land_PaperBox_open_empty_F",0,0,0],
     ["Land_PaperBox_open_full_F",0,0,0],
@@ -165,14 +157,6 @@ buildings = [
     ["Land_BarrelWater_grey_F",0,0,0],
     ["Land_WaterBarrel_F",0,0,0],
     ["Land_WaterTank_F",0,0,0],
-    ["Land_BagFence_Round_F",0,0,0],
-    ["Land_BagFence_Short_F",0,0,0],
-    ["Land_BagFence_Long_F",0,0,0],
-    ["Land_BagFence_Corner_F",0,0,0],
-    ["Land_BagFence_End_F",0,0,0],
-    ["Land_BagBunker_Small_F",0,0,0],
-    ["Land_BagBunker_Large_F",0,0,0],
-    ["Land_BagBunker_Tower_F",0,0,0],
     ["Land_HBarrier_1_F",0,0,0],
     ["Land_HBarrier_3_F",0,0,0],
     ["Land_HBarrier_5_F",0,0,0],
@@ -343,5 +327,6 @@ elite_vehicles = [
     "RD501_arc_170_razor",                              //  ARC 170 (Razor)
     "RD501_drone_rep_heli",                             //  Elix
     "RD501_drone_rep_stealth_fixedwing",                //  Phantom
-    "RD501_Wombat"                                      //  Wombat
+    "RD501_Wombat",                                     //  Wombat
+    "RD501_warden_tank_field"                           //  Warden Tank Turbo
 ];
