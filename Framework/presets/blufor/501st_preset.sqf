@@ -92,7 +92,7 @@ air_vehicles = [
     ["RD501_nuclass_mk1",250,50,250],                                //  Nu Class (RD501)
     ["RD501_Laat_LE",150,50,200],                                    //  LAAT-LE (RD501)
     ["RD501_Laat_C",200,0,200],                                      //  LAAT-C (RD501)
-    ["RD501_LAAT-MKIII_Balls",200,250,225],                           //  LAAT MKIII (RD501)
+    ["RD501_LAAT_MKIII_Balls",200,250,225],                           //  LAAT MKIII (RD501)
     ["RD501_z95_blue",250,250,250],                                   //  Z-95 Headhunter (RD501)
     ["RD501_v19_MKI",250,250,250],                                   //  V-19 Torrent (RD501)
     ["RD501_arc_170_red",250,250,250],                               //  ARC 170 (RD501) - Red
