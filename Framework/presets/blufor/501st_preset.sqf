@@ -29,6 +29,7 @@ huron_typename = "RD501_nuclass_mk1";                       // This is Spartan 0
 crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
 pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "RD501_Laat_LE";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_laat_c_classname = "RD501_Laat_C";
 KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "B_Truck_01_flatbed_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
