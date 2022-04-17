@@ -1,10 +1,10 @@
 unitcap = 0;
-KP_liberation_heli_count = 0;
+KP_liberation_heli_count = 2;
 KP_liberation_plane_count = 0;
 
 while {true} do {
     private _local_unitcap = 0;
-    private _local_heli_count = 0;
+    private _local_heli_count = 2;
     private _local_plane_count = 0;
     {
         if ((side group _x == GRLIB_side_friendly) && (alive _x) && ((_x distance startbase) > 250 || (isPlayer _x))) then {
