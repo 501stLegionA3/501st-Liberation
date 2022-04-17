@@ -4,7 +4,7 @@ if ( isNil "GRLIB_last_halo_jump" ) then { GRLIB_last_halo_jump = -6000; };
 
 if ( GRLIB_halo_param > 1 && ( GRLIB_last_halo_jump + ( GRLIB_halo_param * 60 ) ) >= time ) exitWith {
     hint format [ localize "STR_HALO_DENIED_COOLDOWN", ceil ( ( ( GRLIB_last_halo_jump + ( GRLIB_halo_param * 60 ) ) - time ) / 60 ) ];
-};
+}
 
 _dialog = createDialog "liberation_halo";
 dojump = 0;
@@ -42,4 +42,24 @@ if ( dojump > 0 ) then {
     cutRsc ["fasttravel", "PLAIN", 1];
     playSound "parasound";
     sleep 2;
+    
+    _backpack = backpack player;
+    if ( _backpack != "" && _backpack != "RD501_jumppack_neutral_jt21_LTU" ) then {
+        _backpackcontents = backpackItems player;
+        removeBackpack player;
+        sleep 0.1;
+    };
+    player addBackpack "RD501_jumppack_neutral_jt21_LTU";
+
+    player setpos halo_position;
+
+    sleep 4;
+    halojumping = false;
+    waitUntil { !alive player || isTouchingGround player };
+    if ( _backpack != "" && _backpack != "RD501_jumppack_neutral_jt21_LTU" ) then {
+        sleep 2;
+        player addBackpack _backpack;
+        clearAllItemsFromBackpack player;
+        { player addItemToBackpack _x } foreach _backpackcontents;
+    };
 };
