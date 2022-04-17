@@ -103,7 +103,7 @@ air_vehicles = [
     ["RD501_drone_rep_heli",200,150,150],                             //  Elix Support Drone (RD501)
     ["RD501_drone_rep_stealth_heli",200,100,150],                     //  Elix Support Drone (Stealth) (RD501)
     ["RD501_drone_rep_stealth_fixedwing",250,250,200],               //  Phantom UAV (RD501)
-    ["RD501_Wombat",150,150,150],                                    //  F-99 Wombat (??) (RD501)
+    ["RD501_Wombat",150,150,150]                                    //  F-99 Wombat (??) (RD501)
 ];
 
 static_vehicles = [
