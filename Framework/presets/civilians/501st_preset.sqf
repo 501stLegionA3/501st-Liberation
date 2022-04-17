@@ -46,6 +46,10 @@ civilians = [
 
 // Civilian vehicle classnames.
 civilian_vehicles = [
+    "OPTRE_forklift",
+    "OPTRE_Genet",
+    "OPTRE_M12_CIV",
+    "OPTRE_M12_CIV2",
     "C_Quadbike_01_F",
     "C_Hatchback_01_F",
     "C_Hatchback_01_sport_F",
