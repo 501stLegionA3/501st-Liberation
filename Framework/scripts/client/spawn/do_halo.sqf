@@ -44,19 +44,19 @@ if ( dojump > 0 ) then {
     sleep 2;
     
     _backpack = backpack player;
-    if ( _backpack != "" && _backpack != "RD501_jumppack_neutral_jt21_LTU" ) then {
+    if ( _backpack != "" && _backpack != "B_Parachute" ) then {
         _backpackcontents = backpackItems player;
         removeBackpack player;
         sleep 0.1;
     };
-    player addBackpack "RD501_jumppack_neutral_jt21_LTU";
+    player addBackpack "B_Parachute";
 
     player setpos halo_position;
 
     sleep 4;
     halojumping = false;
     waitUntil { !alive player || isTouchingGround player };
-    if ( _backpack != "" && _backpack != "RD501_jumppack_neutral_jt21_LTU" ) then {
+    if ( _backpack != "" && _backpack != "B_Parachute" ) then {
         sleep 2;
         player addBackpack _backpack;
         clearAllItemsFromBackpack player;

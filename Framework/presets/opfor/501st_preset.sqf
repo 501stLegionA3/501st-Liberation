@@ -9,7 +9,7 @@
 // Enemy infantry classes
 opfor_officer = "3AS_CIS_TS_F";                                          // Officer
 opfor_squad_leader = "RD501_opfor_unit_B1_commander";                    // Squad Leader
-opfor_team_leader = "RD501_opfor_unit_B1";                               // Team Leader
+opfor_team_leader = "RD501_opfor_unit_B1_AT_heavy";                      // Team Leader
 opfor_sentry = "RD501_opfor_unit_B1";                                    // Rifleman (Lite)
 opfor_rifleman = "RD501_opfor_unit_B1";                                  // Rifleman
 opfor_rpg = "RD501_opfor_unit_B1_AT_light";                              // Rifleman (LAT)
@@ -21,9 +21,9 @@ opfor_sharpshooter = "RD501_opfor_unit_B1_marksman";                     // Shar
 opfor_sniper = "RD501_opfor_unit_B1_marksman";                           // Sniper
 opfor_at = "RD501_opfor_unit_B1_AT_heavy";                               // AT Specialist
 opfor_aa = "RD501_opfor_unit_B1_AA";                                     // AA Specialist
-opfor_medic = "RD501_opfor_unit_B1";                                     // Combat Life Saver
+opfor_medic = "RD501_opfor_unit_B1_AT_light";                            // Combat Life Saver
 opfor_engineer = "RD501_opfor_unit_B1_crew";                             // Engineer
-opfor_paratrooper = "RD501_opfor_unit_B1";                               // Paratrooper
+opfor_paratrooper = "RD501_opfor_unit_B1_marine";                        // Paratrooper
 
 // Enemy vehicles used by secondary objectives.
 opfor_mrap = "RD501_Loyalist_Gladius";                                             // Ifrit
@@ -88,14 +88,17 @@ opfor_vehicles = [
     "RD501_cis_gat",
     "RD501_cis_gat_olive",
     "RD501_cis_gat_tan",
-    "RD501_cis_gat_urban"
+    "RD501_cis_gat_urban",
+    "RD501_light_infantry_transport_CIS_MkII",
+    "RD501_cis_n99"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "RD501_Loyalist_Gladius",                                                  // Ifrit (HMG)
     "RD501_Loyalist_Scimitar",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Broadsword"                                                    // Qilin (AT)
+    "RD501_Loyalist_Broadsword",                                                    // Qilin (AT)
+    "RD501_light_infantry_transport_CIS_MkII"
 ];
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
@@ -114,7 +117,8 @@ opfor_battlegroup_vehicles = [
     "RD501_cis_gat_urban",                                                // T-140 Angara
     "RD501_HMP_transport",                                               // T-140K Angara
     "RD501_HMP_gunship",                                 // Po-30 Orca (Armed)
-    "RD501_Vulture"                                 // Po-30 Orca (Armed)
+    "RD501_Vulture",                                 // Po-30 Orca (Armed)
+    "RD501_cis_n99"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
