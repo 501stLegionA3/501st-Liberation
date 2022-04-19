@@ -73,20 +73,20 @@ militia_vehicles = [
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "RD501_Loyalist_Gladius",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Scimitar",                                                  // Ifrit (GMG)
-    "RD501_Loyalist_Broadsword",                                                  // Ifrit (GMG)
-    "RD501_cis_gat_aa",                                                    // Qilin (AT)
-    "RD501_hailfire_cis",                                        // BTR-K Kamysh
-    "RD501_hailfire_cis_artillery",                                        // BTR-K Kamysh
-    "RD501_AAT_Brown",                                            // ZSU-39 Tigris
-    "RD501_AAT_Blue",                                            // ZSU-39 Tigris
-    "RD501_AAT_Tropical",                                                // T-100 Varsuk
-    "RD501_AAT_Snow",                                                // T-100 Varsuk
-    "RD501_AAT_Urban",                                                // T-140 Angara
-    "RD501_cis_adsd",                                                // T-140K Angara
-    "RD501_light_infantry_transport_CIS_MkII",
-    "RD501_cis_n99"
+    "RD501_Loyalist_Gladius",                                       // Gladius
+    "RD501_Loyalist_Scimitar",                                      // Scimitar
+    "RD501_Loyalist_Broadsword",                                    // Broadsword
+    "RD501_CIS_Static_AA_LR_ML_active",                             // Active ML AA
+    "RD501_hailfire_cis",                                           // Hailfire Reg
+    "RD501_hailfire_cis_artillery",                                 // Hailfire Arty
+    "RD501_AAT_Brown",                                              // AAT Brown
+    "RD501_AAT_Blue",                                               // AAT Blue
+    "RD501_AAT_Tropical",                                           // AAT Trop
+    "RD501_AAT_Snow",                                               // AAT Snow
+    "RD501_AAT_Urban",                                              // AAT Snow
+    "RD501_cis_adsd",                                               // ADSD
+    "RD501_light_infantry_transport_CIS_MkII",                      // Tempest
+    "RD501_cis_n99"                                                 // Snail Tank
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
@@ -94,7 +94,7 @@ opfor_vehicles_low_intensity = [
     "RD501_Loyalist_Gladius",                                    // Ifrit (HMG)
     "RD501_Loyalist_Scimitar",                                   // Ifrit (HMG)
     "RD501_Loyalist_Broadsword",                                 // Qilin (AT)
-    "RD501_light_infantry_transport_CIS_MkII"
+    "RD501_light_infantry_transport_CIS_MkII"                    // Tempest 
 ];
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
@@ -105,41 +105,36 @@ opfor_battlegroup_vehicles = [
     "RD501_AAT_Blue",                                            // Tempest Transport
     "RD501_AAT_Tropical",                                        // Tempest Transport (Covered)
     "RD501_AAT_Snow",                                            // BTR-K Kamysh
-    "RD501_AAT_Urban",                                           // BTR-K Kamysh
-    "RD501_cis_adsd",                                            // ZSU-39 Tigris
+    "RD501_CIS_Static_AA_LR_ML_active",                          // Active ML AA
     "RD501_HMP_transport",                                       // T-140K Angara
     "RD501_HMP_gunship",                                         // Po-30 Orca (Armed)
-    "RD501_Vulture",                                             // Po-30 Orca (Armed)
-    "RD501_cis_n99"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "RD501_Loyalist_Gladius",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Scimitar",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Broadsword",                                                    // Qilin (AT)
+    "RD501_Loyalist_Scimitar",                                         // Ifrit (HMG)
     "RD501_light_infantry_transport_CIS_MkII",                         // Tempest Transport (Covered)
-    "442_argon_transport_cis",
-    "442_argon_covered_cis",
-    "RD501_HMP_transport"                                          // MSE-3 Marid
+    "RD501_argon_transport_covered",                                   // Argon Transport (Covered)
+    "RD501_argon_transport_covered",                                   // Argon Transport (Covered)
+    "RD501_HMP_transport"                                              // HMP Transport
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "RD501_light_infantry_transport_CIS_MkII",                                           // Tempest Transport
-    "442_argon_transport_cis",                                             // Tempest Transport (Covered)
-    "442_argon_covered_cis",                                          // MSE-3 Marid
-    "RD501_HMP_transport"                                      // Mi-290 Taru (Bench)
+    "RD501_light_infantry_transport_CIS_MkII",                         // Tempest Transport
+    "RD501_argon_transport_covered",                                   // Argon Transport (Covered)
+    "RD501_argon_transport_covered",                                   // Argon Transport (Covered)
+    "RD501_HMP_transport"                                             // HMP Transport
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-    "RD501_HMP_transport",                                      // Mi-290 Taru (Bench)
-    "RD501_HMP_gunship"                                 // Po-30 Orca (Armed)
+    "RD501_HMP_gunship",                                // HMP Gunship
+    "RD501_HMP_gunship"                                 // HMP Gunship
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "RD501_Vulture"                                  // To-199 Neophron (CAS)
+    "RD501_Vulture"                                  // Vulture Droid
 ];
