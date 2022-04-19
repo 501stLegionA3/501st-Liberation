@@ -38,9 +38,9 @@ KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The b
 KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
 KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
-KP_liberation_supply_crate =   "plp_cts_MetalBarrelOlive";                     // This defines the supply crates, as in resources.
-KP_liberation_ammo_crate =  "plp_cts_MetalBarrelRed";                     // This defines the ammunition crates.
-KP_liberation_fuel_crate = "plp_cts_MetalBarrelYellow";                     // This defines the fuel crates.
+KP_liberation_supply_crate =   "CargoNet_01_box_F";                     // This defines the supply crates, as in resources.
+KP_liberation_ammo_crate =  "B_CargoNet_01_ammo_F";                     // This defines the ammunition crates.
+KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
 
 /*
     --- Friendly classnames ---
