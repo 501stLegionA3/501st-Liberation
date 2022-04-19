@@ -89,21 +89,21 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["RD501_nuclass_mk1",250,50,250],                                //  Nu Class (RD501)
-    ["RD501_Laat_LE",150,50,200],                                    //  LAAT-LE (RD501)
+    ["RD501_nuclass_mk1",250,200,250],                                //  Nu Class (RD501)
+    ["RD501_Laat_LE",250,200,250],                                    //  LAAT-LE (RD501)
     ["RD501_Laat_C",200,0,200],                                      //  LAAT-C (RD501)
-    ["RD501_LAAT_MKIII_Balls",200,250,225],                           //  LAAT MKIII (RD501)
-    ["RD501_z95_blue",250,250,250],                                   //  Z-95 Headhunter (RD501)
-    ["RD501_v19_MKI",250,250,250],                                   //  V-19 Torrent (RD501)
-    ["RD501_arc_170_red",250,250,250],                               //  ARC 170 (RD501) - Red
-    ["RD501_arc_170_blue",250,250,250],                              //  ARC 170 (RD501) - Blue
-    ["RD501_arc_170_razor",250,250,250],                             //  ARC 170 (RD501) - Razor
+    ["RD501_LAAT_MKIII_Balls",400,500,400],                           //  LAAT MKIII (RD501)
+    ["RD501_z95_blue",450,500,450],                                   //  Z-95 Headhunter (RD501)
+    ["RD501_v19_MKI",500,550,500],                                   //  V-19 Torrent (RD501)
+    ["RD501_arc_170_red",600,600,600],                               //  ARC 170 (RD501) - Red
+    ["RD501_arc_170_blue",600,600,600],                              //  ARC 170 (RD501) - Blue
+    ["RD501_arc_170_razor",600,600,600],                             //  ARC 170 (RD501) - Razor
     ["RD501_drone_Clone_Recon_Droid",50,0,50],                       //  R-2 Recon Drone (RD501)
     ["RD501_drone_razor_turret",50,25,50],                           //  Razor Prime Drone (Turret) (RD501)
-    ["RD501_drone_rep_heli",200,150,150],                             //  Elix Support Drone (RD501)
-    ["RD501_drone_rep_stealth_heli",200,100,150],                     //  Elix Support Drone (Stealth) (RD501)
-    ["RD501_drone_rep_stealth_fixedwing",250,250,200],               //  Phantom UAV (RD501)
-    ["RD501_Wombat",150,150,150]                                    //  F-99 Wombat (??) (RD501)
+    ["RD501_drone_rep_heli",300,250,250],                             //  Elix Support Drone (RD501)
+    ["RD501_drone_rep_stealth_heli",250,200,200],                     //  Elix Support Drone (Stealth) (RD501)
+    ["RD501_drone_rep_stealth_fixedwing",250,300,200],               //  Phantom UAV (RD501)
+    ["RD501_Wombat",200,200,200]                                    //  F-99 Wombat (??) (RD501)
 ];
 
 static_vehicles = [
