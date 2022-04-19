@@ -44,18 +44,22 @@ if ( dojump > 0 ) then {
     sleep 2;
     
     _backpack = backpack player;
-    if ( _backpack == "" ) then {
-        player addBackpack "B_Parachute";
+    if ( _backpack != "" && _backpack != "ls_gar_glidepackClosed_backpack" ) then {
+        _backpackcontents = backpackItems player;
+        removeBackpack player;
         sleep 0.1;
     };
+    player addBackpack "ls_gar_glidepackClosed_backpack";
 
     player setpos halo_position;
 
     sleep 4;
     halojumping = false;
     waitUntil { !alive player || isTouchingGround player };
-    if ( _backpack == "" ) then {
-        player removeBackpack "B_Parachute";
-        sleep 0.1;
+    if ( _backpack != "" && _backpack != "ls_gar_glidepackClosed_backpack" ) then {
+        sleep 2;
+        player addBackpack _backpack;
+        clearAllItemsFromBackpack player;
+        { player addItemToBackpack _x } foreach _backpackcontents;
     };
 };
