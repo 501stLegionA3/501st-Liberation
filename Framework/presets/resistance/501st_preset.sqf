@@ -14,7 +14,9 @@ KP_liberation_guerilla_units = [
 
 // Armed vehicles
 KP_liberation_guerilla_vehicles = [
-    ""
+    "RD501_Loyalist_Gladius",                                                  
+    "RD501_Loyalist_Scimitar",                                                  
+    "RD501_Loyalist_Broadsword"  
 ];
 
 /* Guerilla Equipment
