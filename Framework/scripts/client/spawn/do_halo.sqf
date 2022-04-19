@@ -55,9 +55,7 @@ if ( dojump > 0 ) then {
     halojumping = false;
     waitUntil { !alive player || isTouchingGround player };
     if ( _backpack == "" ) then {
-        sleep 2;
-        player addBackpack _backpack;
-        clearAllItemsFromBackpack player;
-        { player addItemToBackpack _x } foreach _backpackcontents;
+        player removeBackpack "B_Parachute";
+        sleep 0.1;
     };
 };
