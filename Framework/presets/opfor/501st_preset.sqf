@@ -85,39 +85,31 @@ opfor_vehicles = [
     "RD501_AAT_Snow",                                                // T-100 Varsuk
     "RD501_AAT_Urban",                                                // T-140 Angara
     "RD501_cis_adsd",                                                // T-140K Angara
-    "RD501_cis_gat",
-    "RD501_cis_gat_olive",
-    "RD501_cis_gat_tan",
-    "RD501_cis_gat_urban",
     "RD501_light_infantry_transport_CIS_MkII",
     "RD501_cis_n99"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-    "RD501_Loyalist_Gladius",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Scimitar",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Broadsword",                                                    // Qilin (AT)
+    "RD501_Loyalist_Gladius",                                    // Ifrit (HMG)
+    "RD501_Loyalist_Scimitar",                                   // Ifrit (HMG)
+    "RD501_Loyalist_Broadsword",                                 // Qilin (AT)
     "RD501_light_infantry_transport_CIS_MkII"
 ];
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "RD501_Loyalist_Gladius",                                                  // Ifrit (HMG)
-    "RD501_Loyalist_Scimitar",                                                  // Ifrit (GMG)
-    "RD501_Loyalist_Broadsword",                                                  // Ifrit (GMG)
-    "RD501_AAT_Brown",                                                    // Qilin (AT)
-    "RD501_AAT_Blue",                                           // Tempest Transport
-    "RD501_AAT_Tropical",                                             // Tempest Transport (Covered)
-    "RD501_AAT_Snow",                                        // BTR-K Kamysh
-    "RD501_AAT_Urban",                                        // BTR-K Kamysh
+    "RD501_Loyalist_Gladius",                                    // Ifrit (HMG)
+    "RD501_Loyalist_Scimitar",                                   // Ifrit (GMG)
+    "RD501_Loyalist_Broadsword",                                 // Ifrit (GMG)
+    "RD501_AAT_Brown",                                           // Qilin (AT)
+    "RD501_AAT_Blue",                                            // Tempest Transport
+    "RD501_AAT_Tropical",                                        // Tempest Transport (Covered)
+    "RD501_AAT_Snow",                                            // BTR-K Kamysh
+    "RD501_AAT_Urban",                                           // BTR-K Kamysh
     "RD501_cis_adsd",                                            // ZSU-39 Tigris
-    "RD501_cis_gat",                                            // ZSU-39 Tigris
-    "RD501_cis_gat_olive",                                                // T-100 Varsuk
-    "RD501_cis_gat_tan",                                                // T-100 Varsuk
-    "RD501_cis_gat_urban",                                                // T-140 Angara
-    "RD501_HMP_transport",                                               // T-140K Angara
-    "RD501_HMP_gunship",                                 // Po-30 Orca (Armed)
-    "RD501_Vulture",                                 // Po-30 Orca (Armed)
+    "RD501_HMP_transport",                                       // T-140K Angara
+    "RD501_HMP_gunship",                                         // Po-30 Orca (Armed)
+    "RD501_Vulture",                                             // Po-30 Orca (Armed)
     "RD501_cis_n99"
 ];
 
