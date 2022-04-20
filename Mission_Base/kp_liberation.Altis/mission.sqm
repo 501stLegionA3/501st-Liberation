@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=8064;
+		nextID=8145;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1115;
+		nextID=1134;
 	};
 	class Camera
 	{
-		pos[]={15211.029,38.858646,6764.874};
-		dir[]={-0.23991673,-0.38481563,-0.89135623};
-		up[]={-0.10004509,0.92294544,-0.37169105};
-		aside[]={-0.96570218,1.8568244e-007,0.25993088};
+		pos[]={14569.359,33.002506,5886.0103};
+		dir[]={-0.83383566,-0.55046821,0.043214049};
+		up[]={-0.54983276,0.83477062,0.028495198};
+		aside[]={0.051759925,4.6321657e-007,0.99874097};
 	};
 };
 binarizationWanted=0;
@@ -474,7 +474,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=596;
+		items=517;
 		class Item0
 		{
 			dataType="Marker";
@@ -22583,219 +22583,14 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=80;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.786,7.0453339,5886.0537};
-					};
-					side="West";
-					flags=3;
-					class Attributes
-					{
-						rank="LIEUTENANT";
-						description="Clone";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="RD501_501_avi_uniform_cxx";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=2;
-									class Item0
-									{
-										name="SmokeShellGreen";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="RD501_501_invis_vest_vest";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="SmokeShellBlue";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item1
-									{
-										name="SmokeShellOrange";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							headgear="RD501_3as_pilot_helmet_base";
-						};
-					};
-					id=7903;
-					type="B_Helipilot_F";
-					atlOffset=0.29519367;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ENH_unitTraits_engineer";
-							expression="_this setUnitTrait ['Engineer', _value]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="ace_isEngineer";
-							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ENH_unitTrait_UAVHacker";
-							expression="_this setUnitTrait ['UAVHacker', _value]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute3
-						{
-							property="ace_isEOD";
-							expression="_this setVariable ['ACE_isEOD', _value, true]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						class Attribute4
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=0.98000002;
-								};
-							};
-						};
-						class Attribute5
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute6
-						{
-							property="ace_isMedic";
-							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=2;
-								};
-							};
-						};
-						class Attribute7
-						{
-							property="ENH_unitTraits_medic";
-							expression="_this setUnitTrait ['Medic', _value]";
-							class Value
-							{
-								class data
-								{
-									singleType="BOOL";
-									value=1;
-								};
-							};
-						};
-						nAttributes=8;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=7902;
-			atlOffset=0.29519367;
-		};
-		class Item517
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14511.348,6.6690984,5884.0405};
+						position[]={14498.694,10.647887,5861.2983};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
 					flags=7;
@@ -22870,9 +22665,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7907;
+					id=8065;
 					type="B_Helipilot_F";
-					atlOffset=-9.5367432e-005;
+					atlOffset=0.098007202;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22982,29 +22777,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7906;
-			atlOffset=-9.5367432e-005;
-		};
-		class Item518
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.313,6.5410504,5882.2241};
+						position[]={14499.52,11.15736,5868.3022};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -23076,9 +22858,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7909;
+					id=8066;
 					type="B_Helipilot_F";
-					atlOffset=-8.8691711e-005;
+					atlOffset=0.86577606;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23188,29 +22970,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7908;
-			atlOffset=-8.8691711e-005;
-		};
-		class Item519
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item2
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.348,6.5070734,5880.5718};
+						position[]={14498.988,10.781125,5866.3115};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -23282,9 +23051,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7911;
+					id=8067;
 					type="B_Helipilot_F";
-					atlOffset=-4.7683716e-005;
+					atlOffset=0.37745762;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23394,29 +23163,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7910;
-			atlOffset=-4.7683716e-005;
-		};
-		class Item520
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.287,6.5358605,5879.019};
+						position[]={14498.87,10.653077,5864.4985};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=5;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -23488,9 +23244,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7913;
+					id=8068;
 					type="B_Helipilot_F";
-					atlOffset=-0.00013065338;
+					atlOffset=0.19294548;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23600,29 +23356,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7912;
-			atlOffset=-0.00013065338;
-		};
-		class Item521
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.89,7.6220403,5886.021};
+						position[]={14498.827,10.6191,5862.8462};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=3;
+					flags=5;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -23694,9 +23437,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7915;
+					id=8069;
 					type="B_Helipilot_F";
-					atlOffset=0.58608341;
+					atlOffset=0.060326576;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23806,29 +23549,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7914;
-			atlOffset=0.58608341;
-		};
-		class Item522
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.451,7.2458048,5884.0078};
+						position[]={14497.624,11.734067,5868.3574};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -23900,9 +23630,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7917;
+					id=8070;
 					type="B_Helipilot_F";
-					atlOffset=0.29082823;
+					atlOffset=0.67109108;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24012,29 +23742,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7916;
-			atlOffset=0.29082823;
-		};
-		class Item523
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.417,7.1177568,5882.1914};
+						position[]={14497.093,11.357831,5866.3667};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -24106,9 +23823,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7919;
+					id=8071;
 					type="B_Helipilot_F";
-					atlOffset=0.15272522;
+					atlOffset=0.29587746;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24218,29 +23935,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7918;
-			atlOffset=0.15272522;
-		};
-		class Item524
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.451,7.0837798,5880.5391};
+						position[]={14496.974,11.229783,5864.5537};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -24312,9 +24016,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7921;
+					id=8072;
 					type="B_Helipilot_F";
-					atlOffset=0.0079536438;
+					atlOffset=0.25251675;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24424,29 +24128,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7920;
-			atlOffset=0.0079536438;
-		};
-		class Item525
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item8
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.391,7.1125669,5878.9863};
+						position[]={14496.932,11.195806,5862.9019};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -24518,9 +24209,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7923;
+					id=8073;
 					type="B_Helipilot_F";
-					atlOffset=0.011165619;
+					atlOffset=0.25866413;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24630,29 +24321,16 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7922;
-			atlOffset=0.011165619;
-		};
-		class Item526
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item9
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14506.027,8.99786,5882.2866};
+						position[]={14496.799,11.224594,5861.3535};
+						angles[]={0,0.046461951,-0};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -24724,9 +24402,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7925;
+					id=8074;
 					type="B_Helipilot_F";
-					atlOffset=1.0275455;
+					atlOffset=0.31634617;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -24836,29 +24514,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7924;
-			atlOffset=1.0275455;
-		};
-		class Item527
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item10
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14505.589,8.6216249,5880.2734};
+						position[]={14511.214,7.5622053,5876.7241};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -24930,9 +24594,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7927;
+					id=8075;
 					type="B_Helipilot_F";
-					atlOffset=0.37269592;
+					atlOffset=1.0655317;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25042,29 +24706,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7926;
-			atlOffset=0.37269592;
-		};
-		class Item528
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item11
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14505.555,8.493577,5878.457};
+						position[]={14510.775,7.1859694,5874.7109};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -25136,9 +24786,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7929;
+					id=8076;
 					type="B_Helipilot_F";
-					atlOffset=0.28131962;
+					atlOffset=0.61200571;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25248,29 +24898,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7928;
-			atlOffset=0.28131962;
-		};
-		class Item529
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14505.589,8.4595995,5876.8047};
+						position[]={14510.741,7.0579214,5872.8945};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -25342,9 +24978,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7931;
+					id=8077;
 					type="B_Helipilot_F";
-					atlOffset=0.33387852;
+					atlOffset=0.55053091;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25454,29 +25090,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7930;
-			atlOffset=0.33387852;
-		};
-		class Item530
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item13
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14505.528,8.4883871,5875.252};
+						position[]={14510.775,7.0239449,5871.2422};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -25548,9 +25170,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7933;
+					id=8078;
 					type="B_Helipilot_F";
-					atlOffset=0.41828918;
+					atlOffset=0.60485554;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25660,29 +25282,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7932;
-			atlOffset=0.41828918;
-		};
-		class Item531
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item14
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14504.131,9.5745668,5882.2539};
+						position[]={14510.715,7.052732,5869.6895};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -25754,9 +25362,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7935;
+					id=8079;
 					type="B_Helipilot_F";
-					atlOffset=1.149991;
+					atlOffset=0.69133615;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25866,29 +25474,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7934;
-			atlOffset=1.149991;
-		};
-		class Item532
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item15
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14503.692,9.1983309,5880.2407};
+						position[]={14509.317,8.1389112,5876.6914};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -25960,9 +25554,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7937;
+					id=8080;
 					type="B_Helipilot_F";
-					atlOffset=0.40896034;
+					atlOffset=1.0768275;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26072,29 +25666,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7936;
-			atlOffset=0.40896034;
-		};
-		class Item533
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item16
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14503.658,9.0702829,5878.4243};
+						position[]={14508.879,7.7626762,5874.6782};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -26166,9 +25746,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7939;
+					id=8081;
 					type="B_Helipilot_F";
-					atlOffset=0.30767155;
+					atlOffset=0.65313053;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26278,29 +25858,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7938;
-			atlOffset=0.30767155;
-		};
-		class Item534
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item17
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14503.692,9.0363054,5876.772};
+						position[]={14508.845,7.6346283,5872.8618};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -26372,9 +25938,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7941;
+					id=8082;
 					type="B_Helipilot_F";
-					atlOffset=0.36110973;
+					atlOffset=0.60015297;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26484,29 +26050,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7940;
-			atlOffset=0.36110973;
-		};
-		class Item535
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item18
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14503.632,9.065093,5875.2192};
+						position[]={14508.879,7.6006517,5871.2095};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -26578,9 +26130,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7943;
+					id=8083;
 					type="B_Helipilot_F";
-					atlOffset=0.44420052;
+					atlOffset=0.65475464;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26690,29 +26242,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7942;
-			atlOffset=0.44420052;
-		};
-		class Item536
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item19
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.032,11.226912,5882.3857};
+						position[]={14508.818,7.6294384,5869.6567};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -26784,9 +26322,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7945;
+					id=8084;
 					type="B_Helipilot_F";
-					atlOffset=1.4926357;
+					atlOffset=0.74097919;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26896,29 +26434,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7944;
-			atlOffset=1.4926357;
-		};
-		class Item537
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item20
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14498.594,10.850677,5880.3726};
+						position[]={14511.399,7.6320915,5890.3306};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -26990,9 +26514,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7947;
+					id=8085;
 					type="B_Helipilot_F";
-					atlOffset=0.57857609;
+					atlOffset=0.57650661;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27102,29 +26626,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7946;
-			atlOffset=0.57857609;
-		};
-		class Item538
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item21
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14498.56,10.722629,5878.5562};
+						position[]={14510.961,7.2558565,5888.3174};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -27196,9 +26706,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7949;
+					id=8086;
 					type="B_Helipilot_F";
-					atlOffset=0.38579273;
+					atlOffset=0.25322771;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27308,29 +26818,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7948;
-			atlOffset=0.38579273;
-		};
-		class Item539
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item22
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14498.594,10.688651,5876.9038};
+						position[]={14510.927,7.1278086,5886.501};
 					};
 					side="West";
-					flags=7;
+					flags=5;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -27402,9 +26898,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7951;
+					id=8087;
 					type="B_Helipilot_F";
-					atlOffset=0.21882343;
+					atlOffset=0.21419954;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27514,29 +27010,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7950;
-			atlOffset=0.21882343;
-		};
-		class Item540
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item23
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14498.533,10.717439,5875.3511};
+						position[]={14510.961,7.0938311,5884.8486};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -27608,9 +27090,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7953;
+					id=8088;
 					type="B_Helipilot_F";
-					atlOffset=0.08279705;
+					atlOffset=0.30666208;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27720,29 +27202,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7952;
-			atlOffset=0.08279705;
-		};
-		class Item541
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item24
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.136,11.803618,5882.353};
+						position[]={14510.9,7.1226187,5883.2959};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -27814,9 +27282,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7955;
+					id=8089;
 					type="B_Helipilot_F";
-					atlOffset=1.6245232;
+					atlOffset=0.44013214;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27926,29 +27394,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7954;
-			atlOffset=1.6245232;
-		};
-		class Item542
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item25
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.697,11.427382,5880.3398};
+						position[]={14509.503,8.2087984,5890.2979};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -28020,9 +27474,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7957;
+					id=8090;
 					type="B_Helipilot_F";
-					atlOffset=0.83509731;
+					atlOffset=0.93959093;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28132,29 +27586,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7956;
-			atlOffset=0.83509731;
-		};
-		class Item543
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item26
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.663,11.299335,5878.5234};
+						position[]={14509.064,7.832562,5888.2847};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -28226,9 +27666,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7959;
+					id=8091;
 					type="B_Helipilot_F";
-					atlOffset=0.49821281;
+					atlOffset=0.54233074;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28338,29 +27778,207 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7958;
-			atlOffset=0.49821281;
-		};
-		class Item544
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item27
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14509.03,7.7045145,5886.4683};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						rank="LIEUTENANT";
+						description="Clone";
+						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="RD501_501_avi_uniform_cxx";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="RD501_501_invis_vest_vest";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="SmokeShellBlue";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellOrange";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							headgear="RD501_3as_pilot_helmet_base";
+						};
+					};
+					id=8092;
+					type="B_Helipilot_F";
+					atlOffset=0.50508833;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ENH_unitTraits_engineer";
+							expression="_this setUnitTrait ['Engineer', _value]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ENH_unitTrait_UAVHacker";
+							expression="_this setUnitTrait ['UAVHacker', _value]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isEOD";
+							expression="_this setVariable ['ACE_isEOD', _value, true]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=2;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="ENH_unitTraits_medic";
+							expression="_this setUnitTrait ['Medic', _value]";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=1;
+								};
+							};
+						};
+						nAttributes=8;
+					};
+				};
+				class Item28
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.697,11.265357,5876.8711};
+						position[]={14509.064,7.6705375,5884.8159};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -28432,9 +28050,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7961;
+					id=8093;
 					type="B_Helipilot_F";
-					atlOffset=0.31678581;
+					atlOffset=0.59744596;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28544,29 +28162,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7960;
-			atlOffset=0.31678581;
-		};
-		class Item545
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item29
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14496.637,11.294145,5875.3184};
+						position[]={14509.004,7.6993246,5883.2632};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -28638,9 +28242,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7963;
+					id=8094;
 					type="B_Helipilot_F";
-					atlOffset=0.20662117;
+					atlOffset=0.68955803;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28750,29 +28354,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7962;
-			atlOffset=0.20662117;
-		};
-		class Item546
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item30
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14491.157,11.352391,5883.3311};
+						position[]={14505.641,9.5846176,5886.5635};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -28844,9 +28434,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7965;
+					id=8095;
 					type="B_Helipilot_F";
-					atlOffset=1.4838247;
+					atlOffset=1.8125501;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -28956,29 +28546,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7964;
-			atlOffset=1.4838247;
-		};
-		class Item547
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item31
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14490.719,10.976155,5881.3179};
+						position[]={14505.202,9.2083826,5884.5503};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -29050,9 +28626,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7967;
+					id=8096;
 					type="B_Helipilot_F";
-					atlOffset=0.60386467;
+					atlOffset=1.1577005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29162,29 +28738,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7966;
-			atlOffset=0.60386467;
-		};
-		class Item548
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item32
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14490.685,10.848107,5879.5015};
+						position[]={14505.168,9.0803347,5882.7339};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -29256,9 +28818,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7969;
+					id=8097;
 					type="B_Helipilot_F";
-					atlOffset=0.11046219;
+					atlOffset=0.88605881;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29368,29 +28930,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7968;
-			atlOffset=0.11046219;
-		};
-		class Item549
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item33
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14490.719,10.814131,5877.8491};
+						position[]={14505.202,9.0463572,5881.0815};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -29462,9 +29010,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7971;
+					id=8098;
 					type="B_Helipilot_F";
-					atlOffset=-0.254632;
+					atlOffset=0.74132061;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29574,29 +29122,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7970;
-			atlOffset=-0.254632;
-		};
-		class Item550
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item34
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14490.658,10.842917,5876.2964};
+						position[]={14503.744,10.161325,5886.5308};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -29668,9 +29202,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7973;
+					id=8099;
 					type="B_Helipilot_F";
-					atlOffset=-0.56482983;
+					atlOffset=1.9859953;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29780,29 +29314,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7972;
-			atlOffset=-0.56482983;
-		};
-		class Item551
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item35
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14489.261,11.929097,5883.2983};
+						position[]={14503.306,9.7850885,5884.5176};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -29874,9 +29394,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7975;
+					id=8100;
 					type="B_Helipilot_F";
-					atlOffset=1.7777605;
+					atlOffset=1.3890314;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29986,29 +29506,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7974;
-			atlOffset=1.7777605;
-		};
-		class Item552
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item36
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14488.822,11.552862,5881.2852};
+						position[]={14503.271,9.6570406,5882.7012};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -30080,9 +29586,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7977;
+					id=8101;
 					type="B_Helipilot_F";
-					atlOffset=0.73934364;
+					atlOffset=1.1221352;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30192,29 +29698,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7976;
-			atlOffset=0.73934364;
-		};
-		class Item553
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item37
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14488.788,11.424814,5879.4688};
+						position[]={14503.306,9.6230631,5881.0488};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -30286,9 +29778,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7979;
+					id=8102;
 					type="B_Helipilot_F";
-					atlOffset=0.33974552;
+					atlOffset=0.88280582;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30398,29 +29890,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7978;
-			atlOffset=0.33974552;
-		};
-		class Item554
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item38
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14488.822,11.390838,5877.8164};
+						position[]={14503.245,9.6518507,5879.4961};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -30492,9 +29970,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7981;
+					id=8103;
 					type="B_Helipilot_F";
-					atlOffset=-0.039128304;
+					atlOffset=0.7170105;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30604,29 +30082,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7980;
-			atlOffset=-0.039128304;
-		};
-		class Item555
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item39
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14488.762,11.419624,5876.2637};
+						position[]={14505.142,9.0751448,5879.5288};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -30698,9 +30162,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7983;
+					id=8104;
 					type="B_Helipilot_F";
-					atlOffset=-0.35504627;
+					atlOffset=0.69754028;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30810,29 +30274,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7982;
-			atlOffset=-0.35504627;
-		};
-		class Item556
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item40
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14493.94,9.1663265,5892.585};
+						position[]={14498.646,11.813669,5886.6626};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -30904,9 +30354,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7985;
+					id=8105;
 					type="B_Helipilot_F";
-					atlOffset=1.2117558;
+					atlOffset=2.7982454;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31016,29 +30466,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7984;
-			atlOffset=1.2117558;
-		};
-		class Item557
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item41
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14493.502,8.7900915,5890.5718};
+						position[]={14498.207,11.437434,5884.6494};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -31110,9 +30546,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7987;
+					id=8106;
 					type="B_Helipilot_F";
-					atlOffset=0.50422192;
+					atlOffset=1.9177551;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31222,29 +30658,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7986;
-			atlOffset=0.50422192;
-		};
-		class Item558
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item42
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14493.468,8.6620436,5888.7554};
+						position[]={14498.173,11.309386,5882.833};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -31316,9 +30738,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7989;
+					id=8107;
 					type="B_Helipilot_F";
-					atlOffset=-0.034100533;
+					atlOffset=1.4115562;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31428,29 +30850,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7988;
-			atlOffset=-0.034100533;
-		};
-		class Item559
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item43
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14493.502,8.6280661,5887.103};
+						position[]={14498.207,11.275409,5881.1807};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -31522,9 +30930,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7991;
+					id=8108;
 					type="B_Helipilot_F";
-					atlOffset=-0.43327999;
+					atlOffset=1.0526934;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31634,29 +31042,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7990;
-			atlOffset=-0.43327999;
-		};
-		class Item560
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item44
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14493.441,8.6568537,5885.5503};
+						position[]={14498.146,11.304196,5879.6279};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -31728,9 +31122,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7993;
+					id=8109;
 					type="B_Helipilot_F";
-					atlOffset=-0.71660233;
+					atlOffset=0.85402584;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31840,29 +31234,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7992;
-			atlOffset=-0.71660233;
-		};
-		class Item561
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item45
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14492.044,9.7430325,5892.5522};
+						position[]={14496.749,12.390376,5886.6299};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -31934,9 +31314,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7995;
+					id=8110;
 					type="B_Helipilot_F";
-					atlOffset=1.968358;
+					atlOffset=3.0945473;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32046,29 +31426,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7994;
-			atlOffset=1.968358;
-		};
-		class Item562
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item46
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14491.605,9.3667974,5890.5391};
+						position[]={14496.311,12.01414,5884.6167};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -32140,9 +31506,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7997;
+					id=8111;
 					type="B_Helipilot_F";
-					atlOffset=1.1544981;
+					atlOffset=2.3290043;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32252,29 +31618,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7996;
-			atlOffset=1.1544981;
-		};
-		class Item563
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item47
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14491.571,9.2387495,5888.7227};
+						position[]={14496.276,11.886092,5882.8003};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -32346,9 +31698,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=7999;
+					id=8112;
 					type="B_Helipilot_F";
-					atlOffset=0.61617661;
+					atlOffset=1.8343163;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32458,29 +31810,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=7998;
-			atlOffset=0.61617661;
-		};
-		class Item564
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item48
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14491.605,9.204772,5887.0703};
+						position[]={14496.311,11.852115,5881.1479};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -32552,9 +31890,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8001;
+					id=8113;
 					type="B_Helipilot_F";
-					atlOffset=0.21768379;
+					atlOffset=1.4598484;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32664,29 +32002,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8000;
-			atlOffset=0.21768379;
-		};
-		class Item565
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item49
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14491.545,9.2335596,5885.5176};
+						position[]={14496.25,11.880902,5879.5952};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -32758,9 +32082,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8003;
+					id=8114;
 					type="B_Helipilot_F";
-					atlOffset=-0.088346481;
+					atlOffset=1.1738977;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32870,29 +32194,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8002;
-			atlOffset=-0.088346481;
-		};
-		class Item566
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item50
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14485.004,11.49612,5891.7817};
+						position[]={14490.771,11.939149,5887.6079};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -32964,9 +32274,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8005;
+					id=8115;
 					type="B_Helipilot_F";
-					atlOffset=2.1758327;
+					atlOffset=3.0981007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33076,29 +32386,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8004;
-			atlOffset=2.1758327;
-		};
-		class Item567
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item51
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14484.565,11.119885,5889.7686};
+						position[]={14490.332,11.562913,5885.5947};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -33170,9 +32466,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8007;
+					id=8116;
 					type="B_Helipilot_F";
-					atlOffset=1.0087118;
+					atlOffset=2.2554436;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33282,29 +32578,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8006;
-			atlOffset=1.0087118;
-		};
-		class Item568
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item52
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14484.531,10.991838,5887.9521};
+						position[]={14490.298,11.434865,5883.7783};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -33376,9 +32658,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8009;
+					id=8117;
 					type="B_Helipilot_F";
-					atlOffset=0.29881382;
+					atlOffset=1.6743698;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33488,29 +32770,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8008;
-			atlOffset=0.29881382;
-		};
-		class Item569
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item53
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14484.565,10.95786,5886.2998};
+						position[]={14490.332,11.400888,5882.126};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -33582,9 +32850,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8011;
+					id=8118;
 					type="B_Helipilot_F";
-					atlOffset=-0.16026497;
+					atlOffset=1.2284985;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33694,29 +32962,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8010;
-			atlOffset=-0.16026497;
-		};
-		class Item570
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item54
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14484.505,10.986648,5884.7471};
+						position[]={14490.271,11.429675,5880.5732};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -33788,9 +33042,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8013;
+					id=8119;
 					type="B_Helipilot_F";
-					atlOffset=-0.42706585;
+					atlOffset=0.86989498;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33900,29 +33154,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8012;
-			atlOffset=-0.42706585;
-		};
-		class Item571
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item55
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14483.107,12.072827,5891.749};
+						position[]={14488.874,12.515855,5887.5752};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -33994,9 +33234,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8015;
+					id=8120;
 					type="B_Helipilot_F";
-					atlOffset=2.0493288;
+					atlOffset=3.2913809;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -34106,29 +33346,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8014;
-			atlOffset=2.0493288;
-		};
-		class Item572
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item56
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14482.669,11.696591,5889.7358};
+						position[]={14488.436,12.13962,5885.562};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -34200,9 +33426,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8017;
+					id=8121;
 					type="B_Helipilot_F";
-					atlOffset=0.88206387;
+					atlOffset=2.2513247;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -34312,29 +33538,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8016;
-			atlOffset=0.88206387;
-		};
-		class Item573
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item57
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14482.635,11.568543,5887.9194};
+						position[]={14488.401,12.011572,5883.7456};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -34406,9 +33618,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8019;
+					id=8122;
 					type="B_Helipilot_F";
-					atlOffset=0.17249966;
+					atlOffset=1.6580095;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -34518,29 +33730,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8018;
-			atlOffset=0.17249966;
-		};
-		class Item574
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item58
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14482.669,11.534566,5886.2671};
+						position[]={14488.436,11.977595,5882.0933};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -34612,9 +33810,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8021;
+					id=8123;
 					type="B_Helipilot_F";
-					atlOffset=-0.12592697;
+					atlOffset=1.224493;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -34724,29 +33922,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8020;
-			atlOffset=-0.12592697;
-		};
-		class Item575
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item59
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14482.608,11.563354,5884.7144};
+						position[]={14488.375,12.006382,5880.5405};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -34818,9 +34002,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8023;
+					id=8124;
 					type="B_Helipilot_F";
-					atlOffset=-0.27621937;
+					atlOffset=1.0056934;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -34930,29 +34114,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8022;
-			atlOffset=-0.27621937;
-		};
-		class Item576
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item60
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.581,10.570602,5864.144};
+						position[]={14493.115,9.2148237,5891.3799};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -35024,9 +34194,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8025;
+					id=8125;
 					type="B_Helipilot_F";
-					atlOffset=0.35109711;
+					atlOffset=1.1287165;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35136,29 +34306,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8024;
-			atlOffset=0.35109711;
-		};
-		class Item577
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item61
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.143,10.194367,5862.1309};
+						position[]={14493.055,9.2436113,5889.8271};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -35230,9 +34386,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8027;
+					id=8126;
 					type="B_Helipilot_F";
-					atlOffset=-0.26825619;
+					atlOffset=0.80812931;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35342,29 +34498,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8026;
-			atlOffset=-0.26825619;
-		};
-		class Item578
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item62
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.108,10.066319,5860.3145};
+						position[]={14491.158,9.8203173,5889.7944};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -35436,9 +34578,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8029;
+					id=8127;
 					type="B_Helipilot_F";
-					atlOffset=-0.35613251;
+					atlOffset=1.4582634;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35548,29 +34690,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8028;
-			atlOffset=-0.35613251;
-		};
-		class Item579
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item63
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.143,10.032342,5858.6621};
+						position[]={14484.617,12.082878,5896.0586};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -35642,9 +34770,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8031;
+					id=8128;
 					type="B_Helipilot_F";
-					atlOffset=-0.33778954;
+					atlOffset=3.8247557;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35754,29 +34882,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8030;
-			atlOffset=-0.33778954;
-		};
-		class Item580
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item64
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14499.082,10.06113,5857.1094};
+						position[]={14484.179,11.706643,5894.0454};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -35848,9 +34962,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8033;
+					id=8129;
 					type="B_Helipilot_F";
-					atlOffset=-0.27002144;
+					atlOffset=2.7355623;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35960,29 +35074,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8032;
-			atlOffset=-0.27002144;
-		};
-		class Item581
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item65
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.685,11.147309,5864.1113};
+						position[]={14484.145,11.578596,5892.229};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -36054,9 +35154,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8035;
+					id=8130;
 					type="B_Helipilot_F";
-					atlOffset=0.2760067;
+					atlOffset=2.0845156;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36166,29 +35266,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8034;
-			atlOffset=0.2760067;
-		};
-		class Item582
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item66
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.246,10.771073,5862.0981};
+						position[]={14484.179,11.544618,5890.5767};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -36260,9 +35346,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8037;
+					id=8131;
 					type="B_Helipilot_F";
-					atlOffset=-0.11533546;
+					atlOffset=1.5451212;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36372,29 +35458,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8036;
-			atlOffset=-0.11533546;
-		};
-		class Item583
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item67
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.212,10.643025,5860.2817};
+						position[]={14484.118,11.573405,5889.0239};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -36466,9 +35538,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8039;
+					id=8132;
 					type="B_Helipilot_F";
-					atlOffset=-0.19810772;
+					atlOffset=1.0653095;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36578,29 +35650,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8038;
-			atlOffset=-0.19810772;
-		};
-		class Item584
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item68
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.246,10.609048,5858.6294};
+						position[]={14482.721,12.659585,5896.0259};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -36672,9 +35730,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8041;
+					id=8133;
 					type="B_Helipilot_F";
-					atlOffset=-0.18485641;
+					atlOffset=3.8613939;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36784,29 +35842,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8040;
-			atlOffset=-0.18485641;
-		};
-		class Item585
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item69
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14497.186,10.637836,5857.0767};
+						position[]={14482.282,12.283349,5894.0127};
 					};
 					side="West";
-					flags=7;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -36878,9 +35922,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8043;
+					id=8134;
 					type="B_Helipilot_F";
-					atlOffset=-0.10701847;
+					atlOffset=2.7007456;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36990,29 +36034,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8042;
-			atlOffset=-0.10701847;
-		};
-		class Item586
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item70
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.601,6.9754477,5872.4473};
+						position[]={14482.248,12.155301,5892.1963};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -37084,9 +36114,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8045;
+					id=8135;
 					type="B_Helipilot_F";
-					atlOffset=0.728374;
+					atlOffset=1.9963312;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37196,29 +36226,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8044;
-			atlOffset=0.728374;
-		};
-		class Item587
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item71
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.162,6.5992122,5870.4341};
+						position[]={14482.282,12.121324,5890.5439};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -37290,9 +36306,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8047;
+					id=8136;
 					type="B_Helipilot_F";
-					atlOffset=0.3265686;
+					atlOffset=1.4517879;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37402,29 +36418,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8046;
-			atlOffset=0.3265686;
-		};
-		class Item588
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item72
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.128,6.4711642,5868.6177};
+						position[]={14482.222,12.150111,5888.9912};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -37496,9 +36498,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8049;
+					id=8137;
 					type="B_Helipilot_F";
-					atlOffset=0.27626848;
+					atlOffset=0.98116207;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37608,29 +36610,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8048;
-			atlOffset=0.27626848;
-		};
-		class Item589
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item73
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.162,6.4371872,5866.9653};
+						position[]={14493.554,9.7530842,5896.8618};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -37702,9 +36690,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8051;
+					id=8138;
 					type="B_Helipilot_F";
-					atlOffset=0.3310523;
+					atlOffset=2.5430732;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37814,29 +36802,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8050;
-			atlOffset=0.3310523;
-		};
-		class Item590
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item74
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.102,6.4659743,5865.4126};
+						position[]={14493.115,9.3768492,5894.8486};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -37908,9 +36882,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8053;
+					id=8139;
 					type="B_Helipilot_F";
-					atlOffset=0.39407253;
+					atlOffset=1.8670797;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38020,29 +36994,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8052;
-			atlOffset=0.39407253;
-		};
-		class Item591
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item75
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.704,7.5521541,5872.4146};
+						position[]={14493.081,9.2488012,5893.0322};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -38114,9 +37074,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8055;
+					id=8140;
 					type="B_Helipilot_F";
-					atlOffset=0.77829456;
+					atlOffset=1.4619789;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38226,29 +37186,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8054;
-			atlOffset=0.77829456;
-		};
-		class Item592
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item76
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.266,7.1759186,5870.4014};
+						position[]={14491.657,10.32979,5896.8291};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -38320,9 +37266,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8057;
+					id=8141;
 					type="B_Helipilot_F";
-					atlOffset=0.37648869;
+					atlOffset=3.3314734;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38432,29 +37378,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8056;
-			atlOffset=0.37648869;
-		};
-		class Item593
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item77
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.231,7.0478706,5868.585};
+						position[]={14491.219,9.9535551,5894.8159};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -38526,9 +37458,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8059;
+					id=8142;
 					type="B_Helipilot_F";
-					atlOffset=0.32618856;
+					atlOffset=2.6561728;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38638,29 +37570,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8058;
-			atlOffset=0.32618856;
-		};
-		class Item594
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item78
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.266,7.0138936,5866.9326};
+						position[]={14491.185,9.8255072,5892.9995};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -38732,9 +37650,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8061;
+					id=8143;
 					type="B_Helipilot_F";
-					atlOffset=0.35034132;
+					atlOffset=2.1888456;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38844,29 +37762,15 @@ class Mission
 						nAttributes=8;
 					};
 				};
-			};
-			class Attributes
-			{
-			};
-			id=8060;
-			atlOffset=0.35034132;
-		};
-		class Item595
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
+				class Item79
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14509.205,7.0426807,5865.3799};
+						position[]={14491.219,9.7915297,5891.3472};
 					};
 					side="West";
-					flags=3;
+					flags=1;
 					class Attributes
 					{
 						rank="LIEUTENANT";
@@ -38938,9 +37842,9 @@ class Mission
 							headgear="RD501_3as_pilot_helmet_base";
 						};
 					};
-					id=8063;
+					id=8144;
 					type="B_Helipilot_F";
-					atlOffset=0.40025663;
+					atlOffset=1.7788506;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -39054,8 +37958,8 @@ class Mission
 			class Attributes
 			{
 			};
-			id=8062;
-			atlOffset=0.40025663;
+			id=8064;
+			atlOffset=0.098007202;
 		};
 	};
 	class Connections
