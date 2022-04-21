@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={27360.357,402.81952,5808.5098};
-		dir[]={-0.41491595,-0.27650189,0.8668527};
-		up[]={-0.11938115,0.96101105,0.24941362};
-		aside[]={0.90201682,1.056178e-007,0.43174806};
+		pos[]={27236.389,400.94763,5855.1895};
+		dir[]={-0.91884619,-0.20504065,0.33737227};
+		up[]={-0.19249129,0.9787522,0.070676662};
+		aside[]={0.34469339,-8.589268e-008,0.93879592};
 	};
 };
 binarizationWanted=0;
@@ -1087,7 +1087,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14519.56,5.3424044,5883.7437};
+						position[]={14519.56,5.3424039,5883.7437};
 						angles[]={6.2418733,6.0991402,6.102509};
 					};
 					side="West";
@@ -1098,7 +1098,6 @@ class Mission
 						init="removeallWeapons this; removebackpack this; this setVariable ['ace_medical_medicClass', 1]; this setVariable ['ACE_isEngineer', 1];";
 						name="commandant";
 						description="Commander";
-						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
@@ -1188,7 +1187,7 @@ class Mission
 					};
 					id=563;
 					type="B_officer_F";
-					atlOffset=0.038000584;
+					atlOffset=0.038000107;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1552,7 +1551,7 @@ class Mission
 			{
 			};
 			id=518;
-			atlOffset=0.038000584;
+			atlOffset=0.038000107;
 			class CustomAttributes
 			{
 				class Attribute0
