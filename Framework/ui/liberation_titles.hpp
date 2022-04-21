@@ -28,7 +28,7 @@ class RscTitles {
             w = 0.4 * safezoneW;
             y = 0.65 * safezoneH + safezoneY;
             h = 0.1 * safezoneH;
-            text = "ANSELM HAS FOUND THE FUNNI";
+            text = "The 501st Liberation Dev Team Presents";
             shadow = 1;
         };
         class GenericLabelShadow: GenericLabel2 {
@@ -55,7 +55,7 @@ class RscTitles {
             w = 0.35 * safezoneW;
             y = 0.2 * safezoneH + safezoneY;
             h = 0.6 * safezoneH;
-            text = "res\501st_very_serious_logo_3.paa";
+            text = "res\Site_Logo.paa";
         };
         class VersionLabel {
             idc = -1;
