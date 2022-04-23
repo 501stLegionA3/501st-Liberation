@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1153;
+		nextID=1172;
 	};
 	class Camera
 	{
-		pos[]={27236.389,400.94763,5855.1895};
-		dir[]={-0.91884619,-0.20504065,0.33737227};
-		up[]={-0.19249129,0.9787522,0.070676662};
-		aside[]={0.34469339,-8.589268e-008,0.93879592};
+		pos[]={26847.541,366.51486,5611.3027};
+		dir[]={0.97987676,-0.19196469,-0.056094084};
+		up[]={0.1916683,0.98139971,-0.010971818};
+		aside[]={-0.057153016,-2.6484486e-009,-0.99844885};
 	};
 };
 binarizationWanted=0;
@@ -10579,7 +10579,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Venator V1.10.2";
-			state=1;
 			class Entities
 			{
 				items=1;
@@ -24316,7 +24315,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				name="laat_c_1";
+				name="laat_c_0";
 			};
 			id=7721;
 			type="Land_ClutterCutter_small_F";
@@ -24355,7 +24354,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				name="laat_c_2";
+				name="laat_c_1";
 			};
 			id=7722;
 			type="Land_ClutterCutter_small_F";
