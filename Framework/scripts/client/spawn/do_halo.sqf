@@ -42,21 +42,20 @@ if ( dojump > 0 ) then {
     cutRsc ["fasttravel", "PLAIN", 1];
     playSound "parasound";
     sleep 2;
-    
     _backpack = backpack player;
-    if ( _backpack != "" && _backpack != "ls_gar_glidepackClosed_backpack" ) then {
+    if ( _backpack != "" && _backpack != "B_Parachute" ) then {
         _backpackcontents = backpackItems player;
         removeBackpack player;
         sleep 0.1;
     };
-    player addBackpack "ls_gar_glidepackClosed_backpack";
+    player addBackpack "B_Parachute";
 
     player setpos halo_position;
 
     sleep 4;
     halojumping = false;
     waitUntil { !alive player || isTouchingGround player };
-    if ( _backpack != "" && _backpack != "ls_gar_glidepackClosed_backpack" ) then {
+    if ( _backpack != "" && _backpack != "B_Parachute" ) then {
         sleep 2;
         player addBackpack _backpack;
         clearAllItemsFromBackpack player;
