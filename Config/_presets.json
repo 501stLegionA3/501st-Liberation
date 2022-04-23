@@ -1,9 +1,9 @@
 [
     {
-        "sourceFolder": "kp_liberation.Altis",
+        "sourceFolder": "kp_liberation.lythium",
 
         "missionName": "501st_liberation",
-        "map": "Altis",
+        "map": "Lythium",
 
         "configFile": "kp_liberation_config.sqf",
         
