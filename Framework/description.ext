@@ -124,7 +124,7 @@ corpseRemovalMaxTime = 3600;
 // 1 = All                  - All vehicles are managed by the manager
 // 2 = None_But_Respawned   - Only vehicles that can respawn are managed by the manager
 // 3 = All_But_Respawned    - All vehicles are managed by the manager with exception of respawned (opposite to mode 2)
-wreckManagerMode = 1;
+wreckManagerMode = 2;
 
 // Vehicle wreck limit before which (<=) wreckRemovalMaxTime applies and after which (>) wreckRemovalMinTime applies.
 wreckLimit = 20;
