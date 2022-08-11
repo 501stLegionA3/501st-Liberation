@@ -290,12 +290,17 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
+    "76561198388748470",
+    "76561198192663121",
+    "76561198030565436"
 ];
 
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
-
+    "76561198388748470",
+    "76561198192663121",
+    "76561198030565436"
 ];
 
 /* Array of radio tower classnames to place at radio tower sectors.
@@ -447,7 +452,17 @@ blacklisted_from_arsenal = [
     "uns_MK18_low_US_Bag",
     "uns_STABO_US_Bag",
     "uns_Tripod_Bag",
-    "Uns_US_searchlight_Bag"
+    "Uns_US_searchlight_Bag",
+    "Facewear_Armband_Blue",
+    "Facewear_Armband_Falangist",
+    "Facewear_Armband_FFI",
+    "Facewear_Armband_Green",
+    "Facewear_Armband_Hitler_Youth",
+    "Facewear_Armband_Jewish",
+    "Facewear_Armband_medic",
+    "Facewear_Armband_Poland",
+    "Facewear_Armband_Polish_Home_Army",
+    "Facewear_Armband_",
 ];
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
