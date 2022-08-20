@@ -63,9 +63,11 @@ infantry_units = [
 ];
 
 light_vehicles = [
+    ["fow_v_truppenfahrrad_ger_ss",25,0,0],                          //  Bike
+    ["sab_fl_scooter_53",25,0,25],                                  // Scooter
+    ["sab_fl_scooter_39",25,0,25],                                  // Thicc Scooter
     ["LIB_US_GMC_Open",50,0,25],                                     //  Transport Open
     ["LIB_US_GMC_Tent",50,0,25],                                     //  Transport Closed
-    ["fow_v_truppenfahrrad_ger_ss",25,0,0],                          //  Bike
     ["LIB_US_Willys_MB",50,0,25],                                      //  Willys
     ["LIB_US_Willys_MB_M1919",50,50,25],                             //  Willys Armed
     ["LIB_US_Scout_M3",50,50,50],                                    //  M3 Car
