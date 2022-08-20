@@ -21,27 +21,26 @@
     Or not, just don't try!
 */
 FOB_typename = "geist_Flag_USA02_F";                                    // This is the main FOB HQ building.
-FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
-FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
+//FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
+FOB_truck_typename = "LIB_US_Willys_MB_Hood";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
-Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
-huron_typename = "RD501_nuclass_mk1_unarmed";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
-crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
-pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "RD501_Laat_LE_Unarmed";              // These are the little birds which spawn on the Freedom or at Chimera base.
-KP_liberation_laat_c_classname = "RD501_Laat_C";
-KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
+Respawn_truck_typename = "LIB_USA_M3_Halftrack_medical";                        // This is the mobile respawn (and medical) truck.
+//huron_typename = "RD501_nuclass_mk1_unarmed";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+crewman_classname = "LIB_US_Tank_Crew";                                         // This defines the crew for vehicles.
+pilot_classname = "LIB_US_Pilot";                                      // This defines the pilot for helicopters.
+//KP_liberation_little_bird_classname = "RD501_Laat_LE_Unarmed";              // These are the little birds which spawn on the Freedom or at Chimera base.
+//KP_liberation_laat_c_classname = "RD501_Laat_C";
+//KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "B_Truck_01_flatbed_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
-KP_liberation_recycle_building = "Land_RepairDepot_01_tan_F";           // The building defined to unlock FOB recycling functionality.
-KP_liberation_air_vehicle_building = "B_Radar_System_01_F";             // The building defined to unlock FOB air vehicle functionality.
-KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
-KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The hangar used to increase the GLOBAL fixed-wing cap.
+KP_liberation_recycle_building = "Jbad_Mil_Repair_center_Big";           // The building defined to unlock FOB recycling functionality.
+KP_liberation_air_vehicle_building = "Land_wx_radiomast";             // The building defined to unlock FOB air vehicle functionality.
+//KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
+KP_liberation_plane_slot_building = "Land_GeneralServiceTent";             // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate =   "CargoNet_01_box_F";                     // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate =  "B_CargoNet_01_ammo_F";                     // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
-//TODO Below
 /*
     --- Friendly classnames ---
     Each array below represents one of the 7 pages within the build menu.
@@ -51,22 +50,21 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["ls_meme_theNut_UnArmed_base",1000,1000,1000],                                 // The Almighty Nut
-    ["JLTS_Clone_P2_DC15S_501",15,0,0],                                        // Rifleman (Light)
-    ["JLTS_Clone_P2_DC15A_501",20,0,0],                                             // Rifleman
-    ["JLTS_Clone_P2_at_501",30,0,0],                                         // Rifleman (AT)
-    ["JLTS_Clone_P2_DC15AUGL_501",25,0,0],                                          // Grenadier
-    ["SWLB_clone_sg_base_P2",15,0,0],                                          // Autorifleman
-    ["JLTS_Clone_P2_marksman_501",30,0,0],                                           // Marksman
-    ["SWLB_clone_at_heavy_P2",50,10,0],                                         // AT Specialist
-    ["SWLB_clone_aa_base_P2",45,10,0],                                         // AA Specialist
-    ["3as_clone_Engineer",30,0,10],                                            // Engineer
-    ["JLTS_Clone_P2_eod_501",30,5,0],                                         // Explosives Specialist
-    ["3as_ATRT_Driver",10,0,0],                                                // Crewman
-    ["JLTS_Clone_P2_AB_501",20,0,0],                                          // Para Trooper
-    ["3AS_Clone_P2_Pilot",10,0,0]                                                // Pilot
+    ["Simc_US_M43_FC_rifleman",15,0,0],                                        // Rifleman (Light)
+    ["Simc_US_M43_Rifleman",20,0,0],                                             // Rifleman
+    ["Simc_US_M43_AT_soldier",30,0,0],                                         // Rifleman (AT)
+    ["Simc_US_M43_Grenadier",25,0,0],                                          // Grenadier
+    ["Simc_US_M43_Mgunner",15,0,0],                                          // Autorifleman
+    ["Simc_US_M43_Sniper",30,0,0],                                           // Marksman
+   // ["SWLB_clone_at_heavy_P2",50,10,0],                                         // AT Specialist
+   // ["SWLB_clone_aa_base_P2",45,10,0],                                         // AA Specialist
+    ["Simc_US_M43_Engineer",30,0,10],                                            // Engineer
+   // ["JLTS_Clone_P2_eod_501",30,5,0],                                         // Explosives Specialist
+    ["LIB_US_Tank_Crew",10,0,0],                                                // Crewman
+    ["Simc_US_M42_smgunner_para",20,0,0],                                          // Para Trooper
+    ["LIB_US_Pilot",10,0,0]                                                  // Pilot
 ];
-
+//TODO
 light_vehicles = [
     ["RD501_speedboat_republic",150,40,50],                         //  Speedboat Minigun
     ["B_SDV_01_F",150,0,50],                                        //  SDV
