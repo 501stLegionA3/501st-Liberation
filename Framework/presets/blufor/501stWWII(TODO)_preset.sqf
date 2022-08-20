@@ -20,7 +20,7 @@
     The same classnames for different purposes may cause various unpredictable issues with player actions.
     Or not, just don't try!
 */
-FOB_typename = "3as_FOB_Building_2_prop";                                    // This is the main FOB HQ building.
+FOB_typename = "geist_Flag_USA02_F";                                    // This is the main FOB HQ building.
 FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
 FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
@@ -41,7 +41,7 @@ KP_liberation_plane_slot_building = "Land_TentHangar_V1_F";             // The h
 KP_liberation_supply_crate =   "CargoNet_01_box_F";                     // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate =  "B_CargoNet_01_ammo_F";                     // This defines the ammunition crates.
 KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This defines the fuel crates.
-
+//TODO Below
 /*
     --- Friendly classnames ---
     Each array below represents one of the 7 pages within the build menu.
