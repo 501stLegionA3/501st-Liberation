@@ -56,26 +56,22 @@ infantry_units = [
     ["Simc_US_M43_Grenadier",25,0,0],                                          // Grenadier
     ["Simc_US_M43_Mgunner",15,0,0],                                          // Autorifleman
     ["Simc_US_M43_Sniper",30,0,0],                                           // Marksman
-   // ["SWLB_clone_at_heavy_P2",50,10,0],                                         // AT Specialist
-   // ["SWLB_clone_aa_base_P2",45,10,0],                                         // AA Specialist
     ["Simc_US_M43_Engineer",30,0,10],                                            // Engineer
-   // ["JLTS_Clone_P2_eod_501",30,5,0],                                         // Explosives Specialist
     ["LIB_US_Tank_Crew",10,0,0],                                                // Crewman
     ["Simc_US_M42_smgunner_para",20,0,0],                                          // Para Trooper
     ["LIB_US_Pilot",10,0,0]                                                  // Pilot
 ];
-//TODO
-light_vehicles = [
-    ["RD501_speedboat_republic",150,40,50],                         //  Speedboat Minigun
-    ["B_SDV_01_F",150,0,50],                                        //  SDV
-    ["RD501_bantha_501st_MkI_HALO",350,100,150],                     //  Bantha (HALO)
-    ["RD501_gar_rtt",130,0,75],                                      //  RTT
-    ["RD501_fast_infantry_transport_republic",125,0,50],             //  Pathfinder
-    ["RD501_fast_infantry_transport_republic_medic",125,0,50],       //  Pathfinder (Medical)
-    ["3AS_Barc_501",50,0,25],                                        //  Barc
-    ["3AS_BarcSideCar_501",50,25,25]                                //  Barc (Sidecar)
-];
 
+light_vehicles = [
+    ["LIB_US_GMC_Open",50,0,25],                                     //  Transport Open
+    ["LIB_US_GMC_Tent",50,0,25],                                     //  Transport Closed
+    ["fow_v_truppenfahrrad_ger_ss",25,0,0],                          //  Bike
+    ["LIB_US_Willys_MB",50,0,25],                                      //  Willys
+    ["LIB_US_Willys_MB_M1919",50,50,25],                             //  Willys Armed
+    ["LIB_US_Scout_M3",50,50,50],                                    //  M3 Car
+    ["Lib_US_M3_Halftrack",50,50,50],                                //  M3A1 Half Track
+];
+//TODO Everything Below                                                                             
 heavy_vehicles = [
     ["ls_car_stealthbox",1000,1000,1000],                            //  Spy Box
     ["3as_Jug",750,350,300],                                         //  Juggy Wuggy
