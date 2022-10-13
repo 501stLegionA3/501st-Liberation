@@ -21,22 +21,22 @@
     Or not, just don't try!
 */
 FOB_typename = "geist_Flag_USA02_F";                                    // This is the main FOB HQ building.
-//FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container.
+FOB_box_typename = "";                            // This is the FOB as a container.
 FOB_truck_typename = "LIB_US_Willys_MB_Hood";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "LIB_USA_M3_Halftrack_medical";                        // This is the mobile respawn (and medical) truck.
 huron_typename = "LIB_USA_M3_Halftrack_medical";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "LIB_US_Tank_Crew";                                         // This defines the crew for vehicles.
 pilot_classname = "LIB_US_Pilot";                                      // This defines the pilot for helicopters.
-//KP_liberation_little_bird_classname = "RD501_Laat_LE_Unarmed";              // These are the little birds which spawn on the Freedom or at Chimera base.
-//KP_liberation_laat_c_classname = "RD501_Laat_C";
-//KP_liberation_boat_classname = "RD501_speedboat_republic";                 // These are the boats which spawn at the stern of the Freedom.
+KP_liberation_little_bird_classname = "";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_laat_c_classname = "";
+KP_liberation_boat_classname = "";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "B_Truck_01_flatbed_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
 KP_liberation_large_storage_building = "ContainmentArea_01_sand_F";     // A large storage area for resources.
 KP_liberation_recycle_building = "Jbad_Mil_Repair_center_Big";           // The building defined to unlock FOB recycling functionality.
 KP_liberation_air_vehicle_building = "Land_wx_radiomast";             // The building defined to unlock FOB air vehicle functionality.
-//KP_liberation_heli_slot_building = "Land_HelipadSquare_F";              // The helipad used to increase the GLOBAL rotary-wing cap.
+KP_liberation_heli_slot_building = "";              // The helipad used to increase the GLOBAL rotary-wing cap.
 KP_liberation_plane_slot_building = "Land_GeneralServiceTent";             // The hangar used to increase the GLOBAL fixed-wing cap.
 KP_liberation_supply_crate =   "CargoNet_01_box_F";                     // This defines the supply crates, as in resources.
 KP_liberation_ammo_crate =  "B_CargoNet_01_ammo_F";                     // This defines the ammunition crates.
@@ -120,13 +120,13 @@ buildings = [
 support_vehicles = [
     [Arsenal_typename,100,200,0],
     [Respawn_truck_typename,200,0,100],
-    //[FOB_box_typename,300,500,0],
+    [FOB_box_typename,300,500,0],
     [FOB_truck_typename,300,500,75],
     [KP_liberation_small_storage_building,0,0,0],
     [KP_liberation_large_storage_building,0,0,0],
     [KP_liberation_recycle_building,250,0,0],
     [KP_liberation_air_vehicle_building,500,0,0],
-    //[KP_liberation_heli_slot_building,250,0,0],
+    [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,250,0,0],
     ["ACE_medicalSupplyCrate_advanced",50,0,0],                        // Medical Resupply
     ["fow_ab_us_60mm_m2_HE",0,50,0],                           // Mortar Ammo Resupply
