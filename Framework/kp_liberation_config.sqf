@@ -5,72 +5,53 @@
 
 // Vehicle classnames which also function as ACE medical vehicles.
 KP_liberation_medical_vehicles = [
-        /*      Standard Vics
-            "B_T_Truck_01_medical_F",
-            "B_Truck_01_medical_F",
-            "C_Van_02_medevac_F",
-            "CUP_B_BMP2_AMB_CDF",
-            "CUP_B_BMP2_AMB_CZ_Des",
-            "CUP_B_BMP2_AMB_CZ",
-            "CUP_B_FV432_GB_Ambulance",
-            "CUP_B_HMMWV_Ambulance_ACR",
-            "CUP_B_HMMWV_Ambulance_USA",
-            "CUP_B_HMMWV_Ambulance_USMC",
-            "CUP_B_LR_Ambulance_CZ_D",
-            "CUP_B_LR_Ambulance_CZ_W",
-            "CUP_B_LR_Ambulance_GB_D",
-            "CUP_B_LR_Ambulance_GB_W",
-            "CUP_B_S1203_Ambulance_CDF",
-            "CUP_B_UH1Y_MEV_USMC",
-            "CUP_B_UH60M_Unarmed_FFV_MEV_US",
-            "CUP_O_BMP2_AMB_CHDKZ",
-            "CUP_O_BMP2_AMB_sla",
-            "CUP_O_LR_Ambulance_TKA",
-            "CUP_O_M113_Med_TKA",
-            "gm_gc_airforce_mi2sr",
-            "gm_gc_army_ural375d_medic_win",
-            "gm_gc_army_ural375d_medic",
-            "gm_ge_airforce_do28d2_medevac",
-            "gm_ge_army_u1300l_medic_win_rc",
-            "gm_ge_army_u1300l_medic",
-            "I_E_Truck_02_Medical_F",
-            "I_E_Van_02_medevac_F",
-            "O_T_Truck_03_medical_ghex_F",
-            "O_Truck_03_medical_F",
-            "RHS_UH60M_MEV_d",
-            "RHS_UH60M_MEV",
-            "RHS_UH60M_MEV2_d",
-            "RHS_UH60M_MEV2",
-            "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",
-            "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy",
-            "rhsusf_m113_usarmy_medical",
-            "rhsusf_m113d_usarmy_medical",
-            "rhsusf_M1230a1_usarmy_d",
-            "rhsusf_M1230a1_usarmy_wd",
-            "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",
-            "UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM",
-            "uns_ch47a_medevac",
-            "uns_H13_medevac_CAV",
-            "uns_M577_amb",
-            "uns_uh1D_med"
-        */
-    "LIB_US_GMC_Ambulance",
-    "LIB_US_Willys_MB_Ambulance",
-    "LIB_Zis5v_Med",
-    "LIB_Willys_MB_Ambulance",
-    "Lib_ger_SdKfz251IFL_medical",
-    "LIB_ger_opelblitz_ambulance",
-    "LIB_OpelBlitz_Ambulance",
-    "LIB_Li2",
-    "LIB_C47_Skytrain",
-    "LIB_C47_RAF_bob",
-    "LIB_C47_RAF_snafu",
-    "LIB_HORSA",
-    "LIB_CG4_WACO",
-    "LIB_LCVP",
-    "LIB_LCM3_Armed",
-    "fow_usa_lcvp",
-    "LIB_LCI"
+    "B_T_Truck_01_medical_F",
+    "B_Truck_01_medical_F",
+    "C_Van_02_medevac_F",
+    "CUP_B_BMP2_AMB_CDF",
+    "CUP_B_BMP2_AMB_CZ_Des",
+    "CUP_B_BMP2_AMB_CZ",
+    "CUP_B_FV432_GB_Ambulance",
+    "CUP_B_HMMWV_Ambulance_ACR",
+    "CUP_B_HMMWV_Ambulance_USA",
+    "CUP_B_HMMWV_Ambulance_USMC",
+    "CUP_B_LR_Ambulance_CZ_D",
+    "CUP_B_LR_Ambulance_CZ_W",
+    "CUP_B_LR_Ambulance_GB_D",
+    "CUP_B_LR_Ambulance_GB_W",
+    "CUP_B_S1203_Ambulance_CDF",
+    "CUP_B_UH1Y_MEV_USMC",
+    "CUP_B_UH60M_Unarmed_FFV_MEV_US",
+    "CUP_O_BMP2_AMB_CHDKZ",
+    "CUP_O_BMP2_AMB_sla",
+    "CUP_O_LR_Ambulance_TKA",
+    "CUP_O_M113_Med_TKA",
+    "gm_gc_airforce_mi2sr",
+    "gm_gc_army_ural375d_medic_win",
+    "gm_gc_army_ural375d_medic",
+    "gm_ge_airforce_do28d2_medevac",
+    "gm_ge_army_u1300l_medic_win_rc",
+    "gm_ge_army_u1300l_medic",
+    "I_E_Truck_02_Medical_F",
+    "I_E_Van_02_medevac_F",
+    "O_T_Truck_03_medical_ghex_F",
+    "O_Truck_03_medical_F",
+    "RHS_UH60M_MEV_d",
+    "RHS_UH60M_MEV",
+    "RHS_UH60M_MEV2_d",
+    "RHS_UH60M_MEV2",
+    "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",
+    "rhsusf_M1085A1P2_B_WD_Medical_fmtv_usarmy",
+    "rhsusf_m113_usarmy_medical",
+    "rhsusf_m113d_usarmy_medical",
+    "rhsusf_M1230a1_usarmy_d",
+    "rhsusf_M1230a1_usarmy_wd",
+    "UK3CB_BAF_LandRover_Amb_FFR_Green_A_MTP",
+    "UK3CB_BAF_LandRover_Amb_FFR_Sand_A_DDPM",
+    "uns_ch47a_medevac",
+    "uns_H13_medevac_CAV",
+    "uns_M577_amb",
+    "uns_uh1D_med"
 ];
 
 // Building classnames which also function as ACE medical facilities.
@@ -129,7 +110,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 29 = SFP (Desert)
 30 = LDF (Contact DLC)
 31 = 501st Preset */
-KP_liberation_preset_blufor = 0;
+KP_liberation_preset_blufor = 31;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -154,7 +135,7 @@ KP_liberation_preset_blufor = 0;
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland)
 21 = 501st Preset */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 21;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -167,7 +148,7 @@ KP_liberation_preset_opfor = 0;
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus
 9  = 501st Preset */
-KP_liberation_preset_resistance = 0;
+KP_liberation_preset_resistance = 9;
 
 /* Civilians preset:
 0  = Custom (default vanilla)
@@ -179,7 +160,7 @@ KP_liberation_preset_resistance = 0;
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians
 8  = 501st Preset */
-KP_liberation_preset_civilians = 0;
+KP_liberation_preset_civilians = 8;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
@@ -216,9 +197,9 @@ GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
 
 KP_liberation_save_interval = 60;                                       // Interval in seconds for automatic save.
 
-GRLIB_side_friendly = RESISTANCE;                                             // Friendly side.
-GRLIB_side_enemy = WEST;                                                // Enemy side.
-GRLIB_side_resistance = EAST;                                     // Resistance side.
+GRLIB_side_friendly = WEST;                                             // Friendly side.
+GRLIB_side_enemy = EAST;                                                // Enemy side.
+GRLIB_side_resistance = RESISTANCE;                                     // Resistance side.
 GRLIB_side_civilian = CIVILIAN;                                         // Civilian side.
 GRLIB_respawn_marker = "respawn";                                       // Respawn marker name.
 
@@ -227,35 +208,35 @@ GRLIB_color_enemy = "ColorOPFOR";                                       // Enemy
 GRLIB_color_enemy_bright = "ColorRED";                                  // Enemy sector marker color (activated).
 
 GRLIB_fob_range = 125;                                                  // Build range around the main FOB building.
-GRLIB_halo_altitude = 1000;                                             // Altitude in metres for the HALO jump.
+GRLIB_halo_altitude = 2500;                                             // Altitude in metres for the HALO jump.
 GRLIB_secondary_missions_costs = [15, 10, 8];                           // Intel price for the secondary missions [FOB hunting, Convoy ambush, SAR].
 GRLIB_secondary_objective_impact = 0.6;                                 // The percentage impact against enemy combat readiness for a successful FOB hunt.
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
-KP_liberation_production_interval = 20;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
+KP_liberation_production_interval = 30;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
 GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
-GRLIB_battlegroup_size = 10;                                             // Size of enemy battlegroups.
+GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
-GRLIB_civilians_amount = 20;                                            // Civilian count multiplier.
-GRLIB_cleanup_delay = 600;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
+GRLIB_civilians_amount = 10;                                            // Civilian count multiplier.
+GRLIB_cleanup_delay = 1200;                                             // Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100;                                                 // Cap for BLUFOR.
 GRLIB_sector_cap = 180;                                                 // Cap for sector defenders.
 GRLIB_battlegroup_cap = 150;                                            // Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150;                                                 // Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 3;                                      // Civil Reputation penalty for killing a civilian.
-KP_liberation_cr_building_penalty = 1;                                  // Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_kill_penalty = 5;                                      // Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_building_penalty = 3;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 2;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;                                // Civil Reputation penalty for killing a friendly resistance soldier.
 KP_liberation_cr_sector_gain = 5;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
-KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_wounded_gain = 2;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
 KP_liberation_civinfo_min = 5400;                                       // Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;                                      // Civil Informant maximum spawn time. (seconds)
@@ -290,23 +271,24 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
+
     "76561198388748470",
     "76561198192663121",
-    "76561198030565436"
+    "76561198030565436",
+    "76561198013473231 "
+    
 ];
 
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
-    "76561198388748470",
-    "76561198192663121",
-    "76561198030565436"
+
 ];
 
 /* Array of radio tower classnames to place at radio tower sectors.
 If more than one is added, it'll be selected random for each sector on campaign start. */
 KPLIB_radioTowerClassnames = [
-    "LIB_Static_OpelBlitz_Radio"
+    "Land_Communication_F"
 ];
 
 /* - Default arsenal blacklist method.
@@ -452,71 +434,7 @@ blacklisted_from_arsenal = [
     "uns_MK18_low_US_Bag",
     "uns_STABO_US_Bag",
     "uns_Tripod_Bag",
-    "Uns_US_searchlight_Bag",
-    "Facewear_Armband_Blue",
-    "Facewear_Armband_Falangist",
-    "Facewear_Armband_FFI",
-    "Facewear_Armband_Green",
-    "Facewear_Armband_Hitler_Youth",
-    "Facewear_Armband_Jewish",
-    "Facewear_Armband_medic",
-    "Facewear_Armband_Poland",
-    "Facewear_Armband_Polish_Home_Army",
-    "Facewear_Armband_Purple",
-    "Facewear_Armband_Red",
-    "Facewear_Armband_Spain_Nationalist",
-    "Facewear_Armband_Spain_Republican",
-    "Facewear_Armband_SS",
-    "Facewear_Armband_Swastika",
-    "Facewear_Armband_Volkssturm",
-    "Facewear_Armband_Small_Blue",
-    "Facewear_Armband_Small_Falangist",
-    "Facewear_Armband_Small_FFI",
-    "Facewear_Armband_Small_Green",
-    "Facewear_Armband_Small_Hitler_Youth",
-    "Facewear_Armband_Small_Jewish",
-    "Facewear_Armband_Small_medic",
-    "Facewear_Armband_Small_Poland",
-    "Facewear_Armband_Small_Polish_Home_Army",
-    "Facewear_Armband_Small_Purple",
-    "Facewear_Armband_Small_Red",
-    "Facewear_Armband_Small_Spain_Nationalist",
-    "Facewear_Armband_Small_Spain_Republican",
-    "Facewear_Armband_Small_SS",
-    "Facewear_Armband_Small_Swastika",
-    "Facewear_Armband_Small_Volkssturm",
-    "Facewear_Armband_Medium_Blue",
-    "Facewear_Armband_Medium_Falangist",
-    "Facewear_Armband_Medium_FFI",
-    "Facewear_Armband_Medium_Green",
-    "Facewear_Armband_Medium_Hitler_Youth",
-    "Facewear_Armband_Medium_Jewish",
-    "Facewear_Armband_Medium_medic",
-    "Facewear_Armband_Medium_Poland",
-    "Facewear_Armband_Medium_Polish_Home_Army",
-    "Facewear_Armband_Medium_Purple",
-    "Facewear_Armband_Medium_Red",
-    "Facewear_Armband_Medium_Spain_Nationalist",
-    "Facewear_Armband_Medium_Spain_Republican",
-    "Facewear_Armband_Medium_SS",
-    "Facewear_Armband_Medium_Swastika",
-    "Facewear_Armband_Medium_Volkssturm",
-    "Facewear_Armband_Large_Blue",
-    "Facewear_Armband_Large_Falangist",
-    "Facewear_Armband_Large_FFI",
-    "Facewear_Armband_Large_Green",
-    "Facewear_Armband_Large_Hitler_Youth",
-    "Facewear_Armband_Large_Jewish",
-    "Facewear_Armband_Large_medic",
-    "Facewear_Armband_Large_Poland",
-    "Facewear_Armband_Large_Polish_Home_Army",
-    "Facewear_Armband_Large_Purple",
-    "Facewear_Armband_Large_Red",
-    "Facewear_Armband_Large_Spain_Nationalist",
-    "Facewear_Armband_Large_Spain_Republican",
-    "Facewear_Armband_Large_SS",
-    "Facewear_Armband_Large_Swastika",
-    "Facewear_Armband_Large_Volkssturm"
+    "Uns_US_searchlight_Bag"
 ];
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array

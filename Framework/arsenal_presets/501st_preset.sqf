@@ -1,42 +1,45 @@
 // Custom Arsenal Preset
 GRLIB_arsenal_weapons = [
     //Primary Weapons
-    "RD501_rZ6",
-    "RD501_westar_rm5",
-    "RD501_valken38x",
-    "RD501_t21",
-    "RD501_drexl",
-    "RD501_rgl6",
-    "RD501_republic_dp23",
-    "RD501_dc_17m",
-    "RD501_DC_r15x",
-    "RD501_DC_r15s",
-    "RD501_DC_a",
-    "RD501_DC_gl",
-    "RD501_DC_c",
-    "RD501_DC_cgl",
-    "RD501_DC_l",
-    "RD501_iqa_11"
+
+    "Aux501_Weaps_DC15A",
+    "Aux501_Weaps_DC15A_UGL",
+    "Aux501_Weaps_DC15C",
+    "Aux501_Weaps_DC15C_UGL",
+    "Aux501_Weaps_DC15L",
+    "Aux501_Weaps_DC15S",
+    "Aux501_Weaps_DC15X",
+    "Aux501_Weaps_DC17M",
+    "Aux501_Weaps_DP23",
+    "Aux501_Weaps_PURG3_flamer",
+    "Aux501_Weaps_RAMR",
+    "Aux501_Weaps_Drexl",
+    "Aux501_Weaps_Valken38X",
+    "Aux501_Weaps_Westar30S",
+    "Aux501_Weaps_Westar35C",
+    "Aux501_Weaps_WestarM5",
+    "Aux501_Weaps_Z6"
 
     //Secondary Weapons
-    "RD501_Westar_35sa",
-    "RD501_DC_15sa",
-    "RD501_DC_r17",
-    "RD501_DC_r17a",
-    "RD501_DC_1911",
-    "RD501_DC_17sig",
-    "RD501_DC_r17_dual"
+
+    "Aux501_Weaps_Razorblade",
+    "Aux501_Weaps_DC17",
+    "Aux501_Weaps_DC17_Signal",
+    "Aux501_Weaps_DC17A",
+    "Aux501_Weaps_DC1911",
+    "Aux501_Weaps_DC17_Dual",
+    "hgun_Pistol_heavy_02_F"
 
     //Launcher Slots
-    "RD501_z1000",
-    "RD501_launcher_rps1",
-    "RD501_launcher_RPS4",
-    "RD501_launcher_RPS6",
-    "RD501_Launcher_PLX1",
-    "RD501_stat_aap4_carry",
-    "RD501_stat_eweb_carry",
-    "RD501_stat_mar1_carry",
-    "RD501_stat_mortar_carry"
+
+    "Aux501_Weaps_AAP4_carry",
+    "Aux501_Weaps_EWHB12_carry",
+    "Aux501_Weaps_MAR1_carry",
+    "Aux501_Weaps_PLX1",
+    "Aux501_Weaps_RPS1",
+    "Aux501_Weaps_RPS4",
+    "Aux501_Weaps_RPS6",
+    "Aux501_Weaps_Z1000"
 ];
 
 GRLIB_arsenal_magazines = [

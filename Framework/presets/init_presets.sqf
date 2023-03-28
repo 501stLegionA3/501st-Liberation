@@ -98,8 +98,8 @@ KPLIB_b_allSquads = [
     [blufor_squad_inf_light,200,0,0],
     [blufor_squad_inf,300,0,0],
     [blufor_squad_at,200,250,0],
-    [blufor_squad_aa,200,200,0],
-    [blufor_squad_recon,200,0,0],
+    [blufor_squad_aa,200,250,0],
+    [blufor_squad_recon,250,0,0],
     [blufor_squad_para,200,0,0]
 ];
 
@@ -317,7 +317,7 @@ KPLIB_typeAirClasses   = +KPLIB_b_air_classes;
 } forEach (KPLIB_b_support_classes + [toLower huron_typename]);
 
 // Military alphabet used for FOBs and convois
-military_alphabet = ["Able", "Baker", "Charlie", "Dog", "Easy", "Fox", "George", "How", "Item", "Jig", "King", "Love", "Mike", "Nan", "Oboe", "Peter", "Queen", "Roger", "Suger", "Tare", "Uncle", "Victor", "William", "Xray", "Yoke", "Zebra"];
+military_alphabet = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "X-Ray", "Yankee", "Zulu"];
 
 // Misc variables
 markers_reset = [99999,99999,0];

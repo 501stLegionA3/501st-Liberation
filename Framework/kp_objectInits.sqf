@@ -27,7 +27,7 @@ KPLIB_objectInits = [
     // Set KP logo on white flag
     [
         ["Flag_White_F"],
-        {_this setFlagTexture "res\flag_kp_co.paa";}
+        {_this setFlagTexture "res\501st_very_serious_logo.paa";}
     ],
 
     // Add helipads to zeus, as they can't be recycled after built
